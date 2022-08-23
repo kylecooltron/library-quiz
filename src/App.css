@@ -2,20 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,15 +17,130 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header h1 {
+  font-size: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.App-home p{
+  margin-top: 3em;
 }
+
+.App-home h2{
+  margin-top: 2em;
+}
+
+.App-home div{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 2em;
+  width: 50%;
+  margin: 2em auto 0;
+}
+
+.difficulty-btn {
+  font-size: 1em;
+  padding: 2em;
+  text-decoration: none;
+  background-color: gray;
+  border: 1px solid black;
+  color: white;
+  margin: 1em 0;
+}
+
+.return-btn {
+  display: block;
+  width: 40%;
+  margin: 2em auto;
+  font-size: 1em;
+  padding: 1em;
+  text-decoration: none;
+  background-color: gray;
+  border: 1px solid black;
+  color: white;
+}
+
+
+.App-game form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2em;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1em 1em 2em;
+  text-align: left;
+}
+
+.App-game form div {
+  background-color: rgb(241, 241, 241);
+  padding: 0.5em;
+}
+
+.App-game form label{
+  display: inline-block;
+  width: 70%;
+  padding: 1em 2em 1em 1em;
+}
+.App-game form label small{
+  padding-right: 1em;
+}
+
+.App-game button {
+  padding: 0.75em;
+  margin: 0.5em 0;
+  font-size: larger;
+  text-align: center;
+}
+
+
+.question-answered {
+  font-size: larger;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.correct-answer {
+  border: 1px solid rgb(17, 206, 42);
+}
+.incorrect-answer {
+  border: 1px solid rgb(228, 63, 63);
+}
+
+.quiz-info-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.25em 2em;
+}
+
+.final-score {
+  font-size: 8em;
+  transform: translateX(0.4em);
+  line-height: 0.2em;
+}
+
+h3 {
+  margin-top: -0.5em;
+}
+
+.text-field-input{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text-field-input input{
+  margin: 1em 1em 2em;
+  width: 80%;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #282c34;
+  color: white;
+}
+
+
