@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/library-quiz/static/css/main.92edeebc.css",
+    "main.js": "/library-quiz/static/js/main.c2820fab.js",
+    "index.html": "/library-quiz/index.html",
+    "main.92edeebc.css.map": "/library-quiz/static/css/main.92edeebc.css.map",
+    "main.c2820fab.js.map": "/library-quiz/static/js/main.c2820fab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92edeebc.css",
+    "static/js/main.c2820fab.js"
+  ]
+}
