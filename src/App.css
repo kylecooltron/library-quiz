@@ -8,12 +8,12 @@ body {
 
 .App-header {
   background-color: #282c34;
-  min-height: 10vh;
+  min-height: 6vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1.5vmin);
   color: white;
 }
 
@@ -64,7 +64,7 @@ body {
 .App-game form {
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 2em;
+  grid-gap: 1.25em;
   width: 80%;
   margin: 0 auto;
   padding: 1em 1em 2em;
@@ -95,7 +95,7 @@ body {
 
 .question-answered {
   font-size: larger;
-  padding: 0.5em;
+  padding: 0.2em;
   font-weight: bold;
 }
 
@@ -111,6 +111,9 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 0.25em 2em;
+}
+.quiz-info-display h2{
+  font-size: 1.2em;
 }
 
 .final-score {
