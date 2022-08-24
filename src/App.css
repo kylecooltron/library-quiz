@@ -112,14 +112,19 @@ body {
   justify-content: space-between;
   padding: 0.25em 2em;
 }
+
+
 .quiz-info-display h2{
   font-size: 1.2em;
 }
-
-.final-score {
+.final-score  p {
+  font-size: larger;
+}
+.final-score h2 {
   font-size: 8em;
-  transform: translateX(0.4em);
-  line-height: 0.2em;
+  width: 100%;
+  background-color: rgb(165, 204, 241);
+  margin: 50px 0;
 }
 
 h3 {

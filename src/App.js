@@ -14,6 +14,8 @@ import './App.css';
 // get google sheets data
 import {getSpreadsheetInfo} from './SheetsData.js'
 
+// to deploy to github pages "npm run deploy"
+
 function App() {
 
   const [questionsData, setQuestionsData] = useState(null)
