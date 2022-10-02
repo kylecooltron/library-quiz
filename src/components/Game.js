@@ -9,19 +9,18 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
   const displayLetters = ['A', 'B', 'C', 'D']
 
   const handleSubmit = (event) => {
-    if (gameState.questionType === 'choice'){
+    if (gameState.questionInfo.type === 'Multiple Choice'){
       // handle multiple choice question
       const answer = Object.fromEntries(new FormData(event.target)).choice;
       setAnswerSubmitted(answer)
       submitQuestion(answer)
     }   
-    if (gameState.questionType === 'text'){
+    if (gameState.questionInfo.type === 'Traditional'){
       // handle text input question
       const answer = Object.fromEntries(new FormData(event.target)).text;
       setAnswerSubmitted("text")
       submitQuestion(answer)
     }
-    resetForm()
     event.preventDefault()
   };
 
@@ -29,6 +28,7 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
     // reset some variables
     setAnswerSubmitted(null)
     nextQuestion()
+    resetForm()
   }
 
   const resetForm = () => {
@@ -40,7 +40,7 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
 
     ele = document.getElementsByName("text");
     for(i=0;i<ele.length;i++)
-        ele[i].checked = false;
+        ele[i].value = "";
 
   }
   
@@ -48,26 +48,53 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
     <div className="App-game">
       <div className='quiz-info-display'>
       <h2>Difficulty: {gameState.difficulty}</h2>
-      <p>
-        Score: 
-        {
-          " " + gameState.score
-        }
-      </p>
+      {
+        gameState.gameType === 'challenge' &&
+          <div>
+            <p>
+              Score: {" " + gameState.score}
+            </p>
+            <h3>Question { gameState.questionNum + "/" + gameState.totalQuestions }:</h3>
+          </div>
+      }
       </div>
 
-      <h3>Question { gameState.questionNum + "/" + gameState.totalQuestions }:</h3>
-      <p>
-        {gameState.questionAnswered 
-          ? gameState.questionInfo 
-          :gameState.questionText}
-      </p>
+      <div>
+        {
+           <div>
+              {
+                gameState.questionInfo.points !== 'N/A' ?
+                <p className='question-info'>
+                  {`This question, from the game `}
+                  <br />
+                  <em className='game-title'>{gameState.questionInfo.title},</em>
+                  <br />
+                  {`(made in the year ${gameState.questionInfo.year}), is worth ${gameState.questionInfo.points} points.`}
+                </p>
+                : 
+                <p className='question-info'>
+                  {`This question is from the game `}
+                  <br />
+                  <em className='game-title'>{gameState.questionInfo.title},</em>
+                  <br />
+                  {` made in the year `}
+                  {`${gameState.questionInfo.year}.`}
+                </p>
+              }
+              <hr />
+              <h2>Question</h2>
+              <p>
+              {gameState.questionInfo.text}
+              </p>
+            </div>  
+        }
+      </div>
 
 
       <form onSubmit={handleSubmit}>
         {
-          gameState.questionType === 'choice' &&
-          gameState.questionChoices.map((choice, index) => (
+          gameState.questionInfo.type === 'Multiple Choice' &&
+          gameState.questionInfo.choices.map((choice, index) => (
             <div key={displayLetters[index]} 
               style={
                 (gameState.questionAnswered ? {color:'gray'}  : {color:'black'})
@@ -81,15 +108,15 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
              type="radio"
              name="choice"
              id={displayLetters[index]} 
-             value={displayLetters[index]}
+             value={choice}
              style={gameState.questionAnswered ? {visibility:'hidden'} : {visibility:'visible'}}
              required></input>
-            <label htmlFor={displayLetters[index]}><small>{displayLetters[index]}) </small> {choice}</label>
+            <label htmlFor={displayLetters[index]}><small>{displayLetters[index]} </small> {choice}</label>
             </div>
           ))
         }
         {
-          gameState.questionType === 'text' &&
+          gameState.questionInfo.type === 'Traditional' &&
           <div>
             <div className='text-field-input'>
               <label htmlFor="text">Please input your answer:</label>
@@ -110,17 +137,35 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
         <div className="question-answered"
         style={gameState.questionCorrect ? {backgroundColor:'aquamarine'} : {backgroundColor:'pink'}}> 
         {
-          gameState.questionCorrect ? <p>CORRECT!</p> : <p>INCORRECT</p>
+          gameState.questionCorrect ? 
+            <p>
+              CORRECT!
+              <br />
+              <small>"{gameState.questionInfo.correctAnswer}"</small>
+            </p> 
+          : <p>
+              INCORRECT
+              <br />
+              <small>Correct answer was: "{gameState.questionInfo.correctAnswer}"</small>
+            </p>
         }
         </div>
       }
+
       {
-        gameState.questionAnswered &&
-        (gameState.questionNum < gameState.totalQuestions ?
-          <button type='button' onClick={ nextQuestionClick }> Next Question </button>
-        :
-          <Link className='return-btn' to="/gameend" onClick={ nextQuestionClick }> Finish Quiz </Link>)
+        gameState.gameType === 'challenge' &&
+          (gameState.questionAnswered &&
+          (gameState.questionNum < gameState.totalQuestions ?
+            <button type='button' onClick={ nextQuestionClick }> Next Question </button>
+          :
+            <Link className='return-btn' to="/gameend" onClick={ nextQuestionClick }> Finish Quiz </Link>))
       }
+      {
+        gameState.gameType === 'freestyle' &&
+          (gameState.questionAnswered &&
+          <button type='button' onClick={ nextQuestionClick }> Next Question </button>)
+      }
+
 
     </div>
   )

@@ -48,6 +48,16 @@ body {
   margin: 1em 0;
 }
 
+.game-type-btn {
+  font-size: 1em;
+  padding: 2em;
+  text-decoration: none;
+  background-color: gray;
+  border: 1px solid black;
+  color: white;
+  margin: 1em 0;
+}
+
 .return-btn {
   display: block;
   width: 40%;
@@ -115,7 +125,8 @@ body {
 
 
 .quiz-info-display h2{
-  font-size: 1.2em;
+  font-size: 0.85em;
+  margin: 0;
 }
 .final-score  p {
   font-size: larger;
@@ -142,6 +153,13 @@ h3 {
   width: 80%;
 }
 
+.question-info{
+  font-size: small;
+  margin: auto 5em 1em;
+}
+.game-title{
+  font-size: large;
+}
 
 footer {
   position: fixed;
