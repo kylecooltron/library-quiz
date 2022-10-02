@@ -47,7 +47,7 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
   return (
     <div className="App-game">
       <div className='quiz-info-display'>
-      <div>
+      <div className='extra-margin-left'>
         <h2>Difficulty: {gameState.difficulty}</h2>
       </div>
 
@@ -76,12 +76,19 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
         }
 
       {
-        gameState.gameType === 'challenge' &&
-          <div>
+        gameState.gameType === 'challenge' ?
+          <div  className='extra-margin-right'>
             <p>
               Score: {" " + gameState.score}
             </p>
-            <b>Question { gameState.questionNum + "/" + gameState.totalQuestions }:</b>
+            <b>Question { (gameState.questionNum + 1) + "/" + (gameState.totalQuestions + 1) }:</b>
+          </div>
+          :
+          <div>
+            <p>Freestyle
+              <br />
+              <small>(infinite questions) </small> 
+               </p>
           </div>
       }
       </div>

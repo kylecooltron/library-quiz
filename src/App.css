@@ -70,6 +70,18 @@ body {
   color: white;
 }
 
+.return-menu-btn {
+  position: absolute;
+  right: 1em;
+  top: 0.5em;
+  width: 100px;
+  margin: 0.5em auto;
+  font-size: 0.6em;
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+}
+
 
 .App-game form {
   display: grid;
@@ -132,8 +144,16 @@ body {
   margin: 0;
 }
 .quiz-info-display div{
-  padding: 0.5em 2em 0;
+  padding: 0.5em 0 0;
 }
+
+.extra-margin-left{
+  margin-left: 1em;
+}
+.extra-margin-right{
+  margin-right: 1em;
+}
+
 
 .final-score  p {
   font-size: larger;
@@ -167,6 +187,7 @@ h3 {
 .game-title{
   font-size: large;
 }
+
 
 footer {
   font-size: small;

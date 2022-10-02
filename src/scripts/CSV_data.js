@@ -1,6 +1,6 @@
 
 
-function csvToArray(str, delimiter = ",") {
+function csvToArray(str) {
   let arrayAll = []
   let rows = str.slice(str.indexOf("\n") + 1).split("\n")
   for(const row of rows){
