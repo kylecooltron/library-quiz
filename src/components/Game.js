@@ -47,19 +47,10 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
   return (
     <div className="App-game">
       <div className='quiz-info-display'>
-      <h2>Difficulty: {gameState.difficulty}</h2>
-      {
-        gameState.gameType === 'challenge' &&
-          <div>
-            <p>
-              Score: {" " + gameState.score}
-            </p>
-            <h3>Question { gameState.questionNum + "/" + gameState.totalQuestions }:</h3>
-          </div>
-      }
+      <div>
+        <h2>Difficulty: {gameState.difficulty}</h2>
       </div>
 
-      <div>
         {
            <div>
               {
@@ -81,14 +72,25 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
                   {`${gameState.questionInfo.year}.`}
                 </p>
               }
-              <hr />
+            </div>  
+        }
+
+      {
+        gameState.gameType === 'challenge' &&
+          <div>
+            <p>
+              Score: {" " + gameState.score}
+            </p>
+            <b>Question { gameState.questionNum + "/" + gameState.totalQuestions }:</b>
+          </div>
+      }
+      </div>
+      <hr />
               <h2>Question</h2>
               <p>
               {gameState.questionInfo.text}
               </p>
-            </div>  
-        }
-      </div>
+
 
 
       <form onSubmit={handleSubmit}>
