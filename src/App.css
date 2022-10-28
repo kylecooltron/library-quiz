@@ -23,11 +23,13 @@ body {
 
 
 .App-home p{
-  margin-top: 3em;
+  margin: 0.5em;
 }
 
 .App-home h2{
-  margin-top: 2em;
+  margin-top: 1.5em;
+  font-size: 1.3em;
+  color:rgb(28, 64, 131)
 }
 
 .App-home div{
@@ -38,24 +40,39 @@ body {
   margin: 2em auto 0;
 }
 
+.App-home img{
+  max-width: 200px;
+  margin-top: 1em;
+}
+
 .difficulty-btn {
-  font-size: 1em;
-  padding: 2em;
+  font-size: 1.8em;
+  padding: 0.7em;
   text-decoration: none;
-  background-color: gray;
-  border: 1px solid black;
+  background-color: rgb(96, 211, 144);
   color: white;
-  margin: 1em 0;
+  margin: 0em auto;
+  border-radius: 0.5em;
+  width: 60%;
 }
 
 .game-type-btn {
-  font-size: 1em;
-  padding: 2em;
+  font-size: 1.8em;
+  padding: 0.7em;
   text-decoration: none;
-  background-color: gray;
-  border: 1px solid black;
+  border-radius: 0.5em;
+  /* border: 1px solid black; */
   color: white;
-  margin: 1em 0;
+  margin: 0em auto;
+  width: 60%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gm-type-color-1{
+  background-color: rgb(96, 211, 144);
+}
+.gm-type-color-2{
+  background-color: rgb(100, 183, 216);
 }
 
 .return-btn {
@@ -73,10 +90,10 @@ body {
 .return-menu-btn {
   position: absolute;
   right: 1em;
-  top: 0.5em;
-  width: 100px;
+  top: 0.3em;
+  width: 150px;
   margin: 0.5em auto;
-  font-size: 0.6em;
+  font-size: 0.7em;
   padding: 1em;
   text-decoration: none;
   color: white;

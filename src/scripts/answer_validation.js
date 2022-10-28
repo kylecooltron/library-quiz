@@ -30,7 +30,10 @@ export function checkAnswer(player_guess, correct_answer, question_type) {
     for(let word of guess.split(" ")){
       // correct if answer contains any of the words we guessed (that aren't filler words)
       if(answer.split(" ").includes(word)){
-        correct = true;
+        // make sure the word is more than one letter
+        if(answer.split(" ").find(word).length > 1){
+          correct = true;
+        }
       }
     }
 
@@ -66,6 +69,13 @@ export function checkAnswer(player_guess, correct_answer, question_type) {
         if(min_required_match_letters < Math.round(guess_letters.length * 0.80) ){
           min_required_match_letters = Math.round(guess_letters.length * 0.80);
         }
+
+        if(answer_letters.length === 4){
+          if(answer_letters.every(function(element) {return typeof element === 'number';})){
+            min_required_match_letters = 4;
+          }
+        }
+
         let matching_letters = 0;
         for(let letter of guess_letters){
           let lookIndex = answer_letters.findIndex((item) => item === letter);
