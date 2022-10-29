@@ -27,8 +27,10 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
   const nextQuestionClick = () => {
     // reset some variables
     setAnswerSubmitted(null)
+
     nextQuestion()
     resetForm()
+    //document.querySelector("#text").focus();
   }
 
   const resetForm = () => {
@@ -165,14 +167,14 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
         gameState.gameType === 'challenge' &&
           (gameState.questionAnswered &&
           (gameState.questionNum < gameState.totalQuestions ?
-            <button type='button' onClick={ nextQuestionClick }> Next Question </button>
+            <button type='button' autoFocus onClick={ nextQuestionClick }> Next Question </button>
           :
-            <Link className='return-btn' to="/gameend" onClick={ nextQuestionClick }> Finish Quiz </Link>))
+            <Link className='return-btn' to="/library-quiz/gameend" > Finish Quiz </Link>))
       }
       {
         gameState.gameType === 'freestyle' &&
           (gameState.questionAnswered &&
-          <button type='button' onClick={ nextQuestionClick }> Next Question </button>)
+          <button type='button' autoFocus onClick={ nextQuestionClick }> Next Question </button>)
       }
 
 

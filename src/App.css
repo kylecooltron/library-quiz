@@ -49,12 +49,25 @@ body {
   font-size: 1.8em;
   padding: 0.7em;
   text-decoration: none;
-  background-color: rgb(96, 211, 144);
   color: white;
   margin: 0em auto;
   border-radius: 0.5em;
   width: 60%;
 }
+
+.df-children{
+  background-color: rgb(66, 206, 241);
+}
+.df-easy{
+  background-color: rgb(96, 211, 144);
+}
+.df-medium{
+  background-color: rgb(241, 177, 0);
+}
+.df-hard{
+  background-color: rgb(214, 62, 23);
+}
+
 
 .game-type-btn {
   font-size: 1.8em;

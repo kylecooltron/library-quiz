@@ -12,8 +12,8 @@ const Home = ({updateGameType, boardGamesImg}) => {
       <p>Test your gospel and church history knowledge!</p>
       <h2>Select a game type...</h2>
       <div>
-        <Link className='game-type-btn gm-type-color-1' to="/difficulty" onClick={ () => setGameType("freestyle") }>FREESTYLE</Link>
-        <Link className='game-type-btn gm-type-color-2' to="/difficulty" onClick={ () => setGameType("challenge") }>CHALLENGE</Link>
+        <Link className='game-type-btn gm-type-color-1' to="/library-quiz/difficulty" onClick={ () => setGameType("freestyle") }>FREESTYLE</Link>
+        <Link className='game-type-btn gm-type-color-2' to="/library-quiz/difficulty" onClick={ () => setGameType("challenge") }>CHALLENGE</Link>
       </div>
 
     </div>

@@ -7,7 +7,7 @@ const GameEnd = ( { gameState, resetGame} ) => {
   return (
     <div className='final-score'>
       <h1>Quiz Complete</h1>
-      <p>Final score:  { (gameState.questionsAnsweredCorrectly+1) + "/" + (gameState.totalQuestions+1) }</p>
+      <p>Final score:  { (gameState.questionsAnsweredCorrectly) + "/" + (gameState.totalQuestions+1) }</p>
       
       <h2>{gameState.score}</h2>
 

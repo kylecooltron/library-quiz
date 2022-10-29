@@ -5,7 +5,7 @@ const deca = ['twent', 'thirt', 'fourt', 'fift', 'sixt', 'sevent', 'eight', 'nin
 function stringifyNumber(n) {
   if (n < 20) return special[n];
   if (n%10 === 0) return deca[Math.floor(n/10)-2] + 'ieth';
-  return deca[Math.floor(n/10)-2] + 'y-' + special[n%10];
+  return deca[Math.floor(n/10)-2] + 'y ' + special[n%10];
 }
 
 export function checkAnswer(player_guess, correct_answer, question_type) {
@@ -18,20 +18,22 @@ export function checkAnswer(player_guess, correct_answer, question_type) {
   let guess = player_guess.toLowerCase();
   let answer = correct_answer.toLowerCase();
 
-  if(answer.includes(guess)){
+  if(guess === answer){
+    correct = true;
+  }else if (guess.trim() === answer.trim()) {
     correct = true;
   }else{
     // get rid of any symbols or filler words
-    guess.replace(/[^a-zA-Z0-9 ]/g, "");
-    guess.replace(/\b(?:the|it is|we all|an?|by|to|you|[mh]e|she|they|we...)\b/ig, '');
-    answer.replace(/[^a-zA-Z0-9 ]/g, "");
-    answer.replace(/\b(?:the|it is|we all|an?|by|to|you|[mh]e|she|they|we...)\b/ig, '');
-
+    guess = guess.replace(/[^a-zA-Z0-9 ]/g, "");
+    guess = guess.replace(/\b(?:the|it is|we all|an?|by|to|you|[mh]e|she|they|we...)\b/ig, '');
+    answer = answer.replace(/[^a-zA-Z0-9 ]/g, "");
+    answer = answer.replace(/\b(?:the|it is|we all|an?|by|to|you|[mh]e|she|they|we...)\b/ig, '');
+    
     for(let word of guess.split(" ")){
       // correct if answer contains any of the words we guessed (that aren't filler words)
       if(answer.split(" ").includes(word)){
         // make sure the word is more than one letter
-        if(answer.split(" ").find(word).length > 1){
+        if(answer.split(" ").find(e => e === word).length > 1){
           correct = true;
         }
       }
@@ -58,37 +60,101 @@ export function checkAnswer(player_guess, correct_answer, question_type) {
       if(defaultcorrect === true){
         correct = true;
       }else{
-        let guess_letters = guess.split("");
-        let answer_letters = answer.split("");
-        let min_required_match_letters = 1;
-        if(answer_letters.length <=2 ){
-          min_required_match_letters = answer_letters.length;
-        }else{
-          min_required_match_letters = Math.round(answer_letters.length * 0.80);
-        }
-        if(min_required_match_letters < Math.round(guess_letters.length * 0.80) ){
-          min_required_match_letters = Math.round(guess_letters.length * 0.80);
-        }
 
-        if(answer_letters.length === 4){
-          if(answer_letters.every(function(element) {return typeof element === 'number';})){
-            min_required_match_letters = 4;
-          }
-        }
 
-        let matching_letters = 0;
-        for(let letter of guess_letters){
-          let lookIndex = answer_letters.findIndex((item) => item === letter);
-          if(lookIndex !== -1){
-            matching_letters += 1;
-            answer_letters.slice(lookIndex, 1);
-          }
-        }
-        if(matching_letters >= min_required_match_letters){
-          correct = true;
-        }
+        // do this for every word
+        let guess_words = guess.split(" ");
+        let answer_words = answer.split(" ");
+
+        guess_words.forEach( gword => {
+          answer_words.forEach( aword => {
+            let gz_word = gword.trim();
+            let az_word = aword.trim();
+
+            let guess_letters = gz_word.split("");
+            let answer_letters = az_word.split("");
+            let min_required_match_letters = 1;
+            if(answer_letters.length <=2 ){
+              min_required_match_letters = answer_letters.length;
+            }else{
+              min_required_match_letters = Math.round(answer_letters.length * 0.80);
+            }
+            if(min_required_match_letters < Math.round(guess_letters.length * 0.80) ){
+              min_required_match_letters = Math.round(guess_letters.length * 0.80);
+            }
+
+            if(answer_letters.length === 4){
+              if(answer_letters.every(function(element) {return typeof element === 'number';})){
+                min_required_match_letters = 4;
+              }
+            }
+
+            let matching_letters = 0;
+            let halfmatch = 0;
+            let indx = 0;
+            for(let letter of guess_letters){
+              let lookIndex = answer_letters.findIndex((item) => item === letter);
+              if(lookIndex !== -1){
+                matching_letters += 1;
+
+                
+                if(lookIndex !== indx){
+                  halfmatch += 1;
+                }
+                answer_letters.slice(lookIndex, 1);
+              }
+              indx += 1;
+            }
+
+            let matchrange = 0.7;
+            if(matching_letters <=5){
+              matchrange = 0.5;
+            }
+            if(matching_letters <=4){
+              matchrange = 0.1;
+            }
+
+            if(matching_letters >= min_required_match_letters && halfmatch <= matching_letters*matchrange){
+              correct = true;
+            }
+
+            
+          });
+        });
+
+        
+
       }
     }
+    // if we still don't have a match
+    if(!correct){
+
+      let guessNumbers = guess.match(/[-+]?[0-9]*\.?[0-9]+/g);
+      if(guessNumbers){
+
+      guessNumbers.forEach(guessnum => {
+        answer.split(" ").forEach(wordans => {
+              if(numberToEnglish(guessnum).includes(wordans)){
+                correct = true;
+              }
+        });
+      });
+    }
+
+    }
+
+    if(!correct){
+      let guessWords = guess.split(" ");
+      guessWords.forEach(gword => {
+
+          answer.split(" ").forEach(a_wordz => {
+            if(String(a_wordz) === String(text2num(gword))){
+              correct = true;
+            }
+          })
+      });
+    }
+
   }
   }
 
@@ -96,5 +162,191 @@ export function checkAnswer(player_guess, correct_answer, question_type) {
     correct = (player_guess.toLowerCase().replace(/\s/g, '') === correct_answer.toLowerCase().replace(/\s/g, ''))
   }
   
+
   return correct;
 }
+
+
+
+
+
+
+/**
+ * Convert an integer to its words representation
+ * 
+ * @author McShaman (http://stackoverflow.com/users/788657/mcshaman)
+ * @source http://stackoverflow.com/questions/14766951/convert-digits-into-words-with-javascript
+ */
+ function numberToEnglish(n, custom_join_character) {
+
+  var string = n.toString(),
+      units, tens, scales, start, end, chunks, chunksLen, chunk, ints, i, word, words;
+
+  var and = custom_join_character || 'and';
+
+  /* Is number zero? */
+  if (parseInt(string) === 0) {
+      return 'zero';
+  }
+
+  /* Array of units as words */
+  units = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+
+  /* Array of tens as words */
+  tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
+
+  /* Array of scales as words */
+  scales = ['', 'thousand', 'million', 'billion', 'trillion', 'quadrillion', 'quintillion', 'sextillion', 'septillion', 'octillion', 'nonillion', 'decillion', 'undecillion', 'duodecillion', 'tredecillion', 'quatttuor-decillion', 'quindecillion', 'sexdecillion', 'septen-decillion', 'octodecillion', 'novemdecillion', 'vigintillion', 'centillion'];
+
+  /* Split user arguemnt into 3 digit chunks from right to left */
+  start = string.length;
+  chunks = [];
+  while (start > 0) {
+      end = start;
+      chunks.push(string.slice((start = Math.max(0, start - 3)), end));
+  }
+
+  /* Check if function has enough scale words to be able to stringify the user argument */
+  chunksLen = chunks.length;
+  if (chunksLen > scales.length) {
+      return '';
+  }
+
+  /* Stringify each integer in each chunk */
+  words = [];
+  for (i = 0; i < chunksLen; i++) {
+
+      chunk = parseInt(chunks[i]);
+
+      if (chunk) {
+
+          /* Split chunk into array of individual integers */
+          ints = chunks[i].split('').reverse().map(parseFloat);
+
+          /* If tens integer is 1, i.e. 10, then add 10 to units integer */
+          if (ints[1] === 1) {
+              ints[0] += 10;
+          }
+
+          /* Add scale word if chunk is not zero and array item exists */
+          if ((word = scales[i])) {
+              words.push(word);
+          }
+
+          /* Add unit word if array item exists */
+          if ((word = units[ints[0]])) {
+              words.push(word);
+          }
+
+          /* Add tens word if array item exists */
+          if ((word = tens[ints[1]])) {
+              words.push(word);
+          }
+
+          /* Add 'and' string after units or tens integer if: */
+          if (ints[0] || ints[1]) {
+
+              /* Chunk has a hundreds integer or chunk is the first of multiple chunks */
+              if (ints[2] || (!i && chunksLen)) {
+                  words.push(and);
+              }
+
+          }
+
+          /* Add hundreds word if array item exists */
+          if ((word = units[ints[2]])) {
+              words.push(word + ' hundred');
+          }
+
+      }
+
+  }
+
+  return words.reverse().join(' ');
+
+}
+
+/**
+ * Convert an word to an integer
+ * 
+ * @author Greg Hewgill and JavaAndCSharp(https://stackoverflow.com/users/893/greg-hewgill, https://stackoverflow.com/users/631193/javaandcsharp)
+ * 
+ * @source https://stackoverflow.com/questions/11980087/javascript-words-to-numbers
+ */
+
+
+var Small = {
+  'zero': 0,
+  'one': 1,
+  'two': 2,
+  'three': 3,
+  'four': 4,
+  'five': 5,
+  'six': 6,
+  'seven': 7,
+  'eight': 8,
+  'nine': 9,
+  'ten': 10,
+  'eleven': 11,
+  'twelve': 12,
+  'thirteen': 13,
+  'fourteen': 14,
+  'fifteen': 15,
+  'sixteen': 16,
+  'seventeen': 17,
+  'eighteen': 18,
+  'nineteen': 19,
+  'twenty': 20,
+  'thirty': 30,
+  'forty': 40,
+  'fifty': 50,
+  'sixty': 60,
+  'seventy': 70,
+  'eighty': 80,
+  'ninety': 90
+};
+
+var Magnitude = {
+  'thousand':     1000,
+  'million':      1000000,
+  'billion':      1000000000,
+  'trillion':     1000000000000,
+  'quadrillion':  1000000000000000,
+  'quintillion':  1000000000000000000,
+  'sextillion':   1000000000000000000000,
+  'septillion':   1000000000000000000000000,
+  'octillion':    1000000000000000000000000000,
+  'nonillion':    1000000000000000000000000000000,
+  'decillion':    1000000000000000000000000000000000,
+};
+
+var a, n, g;
+
+function text2num(s) {
+  a = s.toString().split(/[\s-]+/);
+  n = 0;
+  g = 0;
+  a.forEach(feach);
+  return n + g;
+}
+
+function feach(w) {
+  var x = Small[w];
+  if (x != null) {
+      g = g + x;
+  }
+  else if (w === "hundred") {
+      g = g * 100;
+  }
+  else {
+      x = Magnitude[w];
+      if (x != null) {
+          n = n + g * x
+          g = 0;
+      }
+      else { 
+          // do something
+      }
+  }
+}
+

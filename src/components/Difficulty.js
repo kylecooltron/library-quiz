@@ -10,10 +10,11 @@ const Difficulty = ({updateGamePlaying}) => {
     <div className="App-home">
       <h2>Select a difficulty to start!</h2>
       <div>
-        <Link className='difficulty-btn' to="/gameplay" onClick={ () => startGame("children") }>CHILDREN</Link>
-        <Link className='difficulty-btn' to="/gameplay" onClick={ () => startGame("easy") }>EASY</Link>
-        <Link className='difficulty-btn' to="/gameplay" onClick={ () => startGame("medium") }>MEDIUM</Link>
-        <Link className='difficulty-btn' to="/gameplay" onClick={ () => startGame("hard") }>HARD</Link>
+        {/* <button onClick={ () => startGame("children") }> test</button> */}
+        <Link className='difficulty-btn df-children' to="/library-quiz/gameplay" onClick={ () => startGame("children") }>CHILDREN</Link>
+        <Link className='difficulty-btn df-easy' to="/library-quiz/gameplay" onClick={ () => startGame("easy") }>EASY</Link>
+        <Link className='difficulty-btn df-medium' to="/library-quiz/gameplay" onClick={ () => startGame("medium") }>MEDIUM</Link>
+        <Link className='difficulty-btn df-hard' to="/library-quiz/gameplay" onClick={ () => startGame("hard") }>HARD</Link>
       </div>
     </div>
   )

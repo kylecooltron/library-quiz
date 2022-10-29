@@ -1,6 +1,6 @@
 // react
 import { useState, useEffect } from 'react'
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 // index components
 import Home from './components/Home'
@@ -30,7 +30,7 @@ function App() {
       gameType: 'freestyle',
       difficulty: 'easy',
       questionNum: 0,
-      questionNumbers: [],
+      questionLookups: [],
       totalQuestions: 1,
 
       questionInfo: {
@@ -56,6 +56,15 @@ function App() {
       score: "100%"
     })
   
+  // each row in .tsv file should have at least this many columns:
+  const CHECK_FOR_COLUMNS = 7;
+  const DIFFICULTY_IDX = {
+    "children": 0,
+    "easy": 1,
+    "medium": 2,
+    "hard": 3,
+  }
+  // identify each used column index
   const COLUMN_IDX = {
     game_title: 0,
     year_published: 1,
@@ -67,46 +76,62 @@ function App() {
     question_correct_answer:7,
   }
 
-  useEffect(() => { getSpreadsheetInfo(setQuestionsData); }, []);
 
-  
-  const getRandomQuestionNumber = () => {
+
+  useEffect(() => {
+    
+    if(window.location.href.toString().split("/").at(-1) !== "library-quiz"){
+      window.location.href = '/library-quiz';
+    }
+
+    getSpreadsheetInfo(setQuestionsData, CHECK_FOR_COLUMNS); }, []
+  );
+
+  const getRandomQuestionLookup = (difficulty) => {
     function getRandomInt(min, max) {
       min = Math.ceil(min);
       max = Math.floor(max);
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-    return getRandomInt(0, questionsData.length);
+
+    let random_question_num = getRandomInt(0, questionsData[DIFFICULTY_IDX[difficulty]].length - 1);
+
+
+    // return the random number and the difficulty used
+    return [random_question_num, DIFFICULTY_IDX[difficulty]];
   }
 
 
   const updateGamePlaying = (playing, difficulty="easy") => {
 
     // define
-    let questionNumbers = [];
-    let questionStartNumber = 0;
-    // set up ten random questions if type is challenge
+    let questionLookups = [];
+    let questionStartLookup = [];
+    // set up ten random question lookups if type is challenge
     if(gameState.gameType === "challenge"){
-      while(questionNumbers.length <  10){
-        let number_to_try = getRandomQuestionNumber();
-        if( !questionNumbers.includes(number_to_try)){
-          if(questionsData[number_to_try][COLUMN_IDX.question_difficulty].toLowerCase() === difficulty){
-            questionNumbers.push(number_to_try);
-          }
+      while(questionLookups.length <  10){
+        let number_to_try = getRandomQuestionLookup(difficulty);
+        if( !questionLookups.includes(number_to_try)){
+          questionLookups.push(number_to_try);
         }
       }
-      console.log(questionNumbers)
-      questionStartNumber = questionNumbers[0];
+      // start with the first one
+      questionStartLookup = questionLookups[0];
     }
 
     if(gameState.gameType === "freestyle"){
       // find a random question that is the right difficulty
-      while(true){
-        questionStartNumber = getRandomQuestionNumber();
-        if(questionsData[questionStartNumber][COLUMN_IDX.question_difficulty].toLowerCase() === difficulty){
-          break;
-        }
-      }
+      // let tries = 1;
+      // while(true){
+      //   tries += 1;
+        questionStartLookup = getRandomQuestionLookup(difficulty);
+          //if(questionsData[questionStartLookup[1]][questionStartLookup[0]][COLUMN_IDX.question_type].toLowerCase() === "traditional"){
+            // break;
+          //}
+      //   if(tries > 100){
+      //     break;
+      //   }
+      // }
     }
 
     setGameState( (g) => ({
@@ -114,8 +139,8 @@ function App() {
       gamePlaying: playing,
       difficulty: difficulty,
       questionNum: 0,
-      questionNumbers: questionNumbers,
-      totalQuestions: questionNumbers.length - 1,
+      questionLookups: questionLookups,
+      totalQuestions: questionLookups.length - 1,
       questionAnswered: false,
       questionCorrect: null,
       questionsAnsweredCorrectly: 0,
@@ -123,7 +148,7 @@ function App() {
     }))
 
     if(playing){
-      loadQuestionInfo(questionStartNumber)
+      loadQuestionInfo(questionStartLookup)
     }
   }
 
@@ -138,7 +163,11 @@ function App() {
   const questionSubmitted = (player_guess) => {
 
     // check if the players answer was correct
-    let correct = checkAnswer(player_guess, gameState.questionInfo.correctAnswer, gameState.questionInfo.type);
+    let correct = checkAnswer(
+      player_guess,
+      gameState.questionInfo.correctAnswer,
+      gameState.questionInfo.type,
+      );
 
     let newScore = ((gameState.questionsAnsweredCorrectly + (correct ? 1 : 0)) / (gameState.questionNum + 1)) * 100
     setGameState( {
@@ -150,18 +179,19 @@ function App() {
     })
   }
 
-  const loadQuestionInfo = (questionNumber) => {
+  const loadQuestionInfo = (questionLookup) => {
 
     let choices = []
+    let questionDataRow = questionsData[questionLookup[1]][questionLookup[0]];
 
     // if there are more entries in the array after the correct answer
-    if(questionsData[questionNumber].length > 8){
+    if(questionDataRow.length > 8){
       // get all the other answers
-      choices = questionsData[questionNumber].slice(8,-1);
+      choices = questionDataRow.slice(8,-1);
       // get the correct answer
-      choices.push(questionsData[questionNumber][COLUMN_IDX.question_correct_answer]);
+      choices.push(questionDataRow[COLUMN_IDX.question_correct_answer]);
       choices = choices
-        // get rod of empty values
+        // get rid of empty values
         .filter((a) => a.trim() !== '')
         // randomize order
         .map(value => ({ value, sort: Math.random() }))
@@ -173,14 +203,14 @@ function App() {
       ...g,
 
       questionInfo: {
-        title: questionsData[questionNumber][COLUMN_IDX.game_title],
-        year: questionsData[questionNumber][COLUMN_IDX.game_year],
-        category: questionsData[questionNumber][COLUMN_IDX.question_category],
-        difficulty: questionsData[questionNumber][COLUMN_IDX.question_difficulty],
-        type: questionsData[questionNumber][COLUMN_IDX.question_type],
-        points: questionsData[questionNumber][COLUMN_IDX.question_points],
-        text: questionsData[questionNumber][COLUMN_IDX.question_text],
-        correctAnswer: questionsData[questionNumber][COLUMN_IDX.question_correct_answer],
+        title: questionDataRow[COLUMN_IDX.game_title],
+        year: questionDataRow[COLUMN_IDX.year_published],
+        category: questionDataRow[COLUMN_IDX.question_category],
+        difficulty: questionDataRow[COLUMN_IDX.question_difficulty],
+        type: questionDataRow[COLUMN_IDX.question_type],
+        points: questionDataRow[COLUMN_IDX.question_points],
+        text: questionDataRow[COLUMN_IDX.question_text],
+        correctAnswer: questionDataRow[COLUMN_IDX.question_correct_answer],
         choices: choices,
       },
       
@@ -201,20 +231,28 @@ function App() {
         }))
   
         // update the question display info
-        loadQuestionInfo(gameState.questionNumbers[nextQuestionNum])
+        loadQuestionInfo(gameState.questionLookups[nextQuestionNum])
       }
     }
     if (gameState.gameType === "freestyle"){
-
-      let nextQuestionNum = gameState.questionNum;
-      // make we find a question that is the right difficulty
+      // make sure we find a question that is the right difficulty
+      let tries = 1;
+      let nextQuestionLookup = [[0],[0]];
       while(true){
-        nextQuestionNum = getRandomQuestionNumber();
-        if(questionsData[nextQuestionNum][COLUMN_IDX.question_difficulty].toLowerCase() === gameState.difficulty){
-          if(nextQuestion !== gameState.questionNum){
+        tries += 1;
+        if(tries > 100){
+          break;
+        }
+        nextQuestionLookup = getRandomQuestionLookup(gameState.difficulty);
+        let questionDataRow = questionsData[nextQuestionLookup[1]][nextQuestionLookup[0]];
+
+        // ERROR HAPPENING HERE
+        //if(questionDataRow[COLUMN_IDX.question_type].toLowerCase() === "traditional"){
+          if(questionDataRow[COLUMN_IDX.question_text] !== gameState.questionInfo.text){
             break;
           }
-        }
+        //}
+
       }
 
         // update state to next question
@@ -222,10 +260,10 @@ function App() {
           ...g,
           questionAnswered: false,
           questionCorrect: null,
-          questionNum: nextQuestionNum
+          questionNum: 0,
         }))
         // update the question display info
-        loadQuestionInfo(nextQuestionNum)
+        loadQuestionInfo(nextQuestionLookup)
     }
   }
 
@@ -250,19 +288,19 @@ function App() {
             <Home boardGamesImg={boardGamesImg} updateGameType={updateGameType}/>
             </>
           }/>
-          <Route path={"/difficulty"} element={ 
+          <Route path={"/library-quiz/difficulty"} element={ 
             <>
             <HeaderBack/> 
             <Difficulty updateGamePlaying={updateGamePlaying}/>
             </>
           }/>
-          <Route path={"/gameplay"} element={ 
+          <Route path={"/library-quiz/gameplay"} element={ 
             <>
             <HeaderBack/> 
             <Game gameState={gameState} submitQuestion={questionSubmitted} nextQuestion={nextQuestion} />
             </>
           }/>
-          <Route path={"/gameend"} element={ 
+          <Route path={"/library-quiz/gameend"} element={ 
             <>
             <HeaderBack/> 
             <GameEnd gameState={gameState} resetGame={resetGame} />
