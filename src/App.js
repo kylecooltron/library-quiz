@@ -81,7 +81,7 @@ function App() {
   useEffect(() => {
     
     if(window.location.href.toString().split("/").filter(n => n).at(-1) !== "library-quiz"){
-      window.location.href = '/library-quiz';
+      window.location.href = 'https://kylecooltron.github.io/library-quiz/';
       // console.log(window.location.href.toString().split("/").at(-1));
       // console.log(window.location.href.toString().split("/"));
       // console.log(window.location.href.toString());
