@@ -1,4 +1,3 @@
-Game Title	Year Published	Question Category	Difficulty (easy, medium, hard, children)	Type (true or false, multiple choice)	Value (points)	Question	Correct	Incorrect 1	Incorrect 2	Incorrect 3
 Seek	1958	Old Testament	Medium	Multiple Choice	15	Choose: The last book in the Old Testament is 1) Malachi, 2) Revelations, or 3) Micah	1) Malachi	2) Revelations	3) Micah	
 Seek	1958	Old Testament	Easy	Traditional	15	Who is the author of the first five books in the Old Testament	Moses			
 Seek	1958	Old Testament	Medium	Traditional	15	Name the other two sons of Noah (besides Shem) who were saved in the Ark	Ham & Japeth			
@@ -8,7 +7,7 @@ Seek	1958	Old Testament	Easy	Traditional	15	Adam said he called his wife "Eve" b
 Seek	1958	Old Testament	Easy	Traditional	15	Name the other companion of Abednego and Meshack who was saved with them by the Lord from burning to death in the furnace of Nebuchadnezzar	Shadrack			
 Seek	1958	Old Testament	Hard	Traditional	25	Who was the wicked queen that opposed Elijah?	Jezebel			
 Seek	1958	Old Testament	Hard	Traditional	25	Name 3 of the 5 books in the Old Testament which are known as the poetry of the Bible	Job, Psalms, Proverbs, Ecclesiastes, Song of Solomon			
-Seek	1958	Old Testament	Medium	Traditional	25	Complete: "Behold I will send you Elijah teh prophet before the coming of the great and dreadful day of the Lord: and he shall turn the heart of the ______ to the ______, and the heart of the _______ to their ______."	Fathers, children, children, fathers			
+Seek	1958	Old Testament	Medium	Traditional	25	Complete: "Behold I will send you Elijah the prophet before the coming of the great and dreadful day of the Lord: and he shall turn the heart of the ______ to the ______, and the heart of the _______ to their ______."	Fathers, children, children, fathers			
 Seek	1958	Old Testament	Hard	Traditional	25	Name the country in which Melchizedek was king	Salem			
 Seek	1958	Old Testament	Medium	Multiple Choice	25	Ruth said, "Wither thou goest, I will go; and where thou lodgest I will lodge; Thy people shall be my people, and thy God my God," to her:	3) Mother-in-Law	1) Father	2) Husband	
 Seek	1958	Old Testament	Medium	Traditional	25	Name Moses' father-in-law, who conferred the priesthood upon Moses	Jethro			
@@ -106,9 +105,9 @@ Seek	1958	Book of Mormon	Easy	Traditional	5	How many times was Joseph Smith visi
 Seek	1958	Book of Mormon	Medium	Multiple Choice	5	Not all of the Gold Plates were translated, a part having been sealed	TRUE	FALSE		
 Seek	1958	Book of Mormon	Easy	Traditional	5	Did Christ personally visit the Nephites on this continent?	Yes			
 Seek	1958	Book of Mormon	Easy	Traditional	5	How many of the Nephite Twelve recieved the promise of not tasting death (similar to the promise given Apostle John)?	Three			
-Seek	1958	Book of Mormon	Children	Multiple Choice	5	How many of the Nephite Twelve recieved the promise of not tasting death (similar to the promise given Apostle John)?	TRUE			
+Seek	1958	Book of Mormon	Children	Multiple Choice	5	How many of the Nephite Twelve recieved the promise of not tasting death (similar to the promise given Apostle John)?	Three	Four		
 Seek	1958	Book of Mormon	Medium	Traditional	25	Name the two sons which were born to Lehi and Sariah while they journeyed in the wilderness	Jacob, Joseph			
-Seek	1958	Book of Mormon	Hard	Traditional	25	Name the six books of teh Book of Mormon which Joseph Smith transalted from the Small Plates of Nephi	1st Nephi, 2nd Nephi, Jacob, Enos, Jarom & Omni			
+Seek	1958	Book of Mormon	Hard	Traditional	25	Name the six books of the Book of Mormon which Joseph Smith transalted from the Small Plates of Nephi	1st Nephi, 2nd Nephi, Jacob, Enos, Jarom & Omni			
 Seek	1958	Book of Mormon	Medium	Traditional	25	How long did the darkness last upon the land of the Nephites at the time of the curcifixion of Christ?	Three days			
 Seek	1958	Book of Mormon	Medium	Traditional	25	Name the secret band of robbers who caused so much wickedness in the Book of Mormon	Gadianton robbers			
 Seek	1958	Book of Mormon	Medium	Traditional	25	What two signs were given to the Nephites at the birth of the Savior?	1) A new star appeared, 2) it was light all night			
@@ -143,7 +142,7 @@ Seek	1958	Book of Mormon	Medium	Traditional	10	Were any of the Jaredites still l
 Seek	1958	Book of Mormon	Medium	Multiple Choice	10	Choose: In which state is the Hill Cumorah located: 1) Vermont, 2) New York, or 3) Conneticut?	2) New York	1) Vermont	3) Conneticut	
 Seek	1958	Book of Mormon	Medium	Multiple Choice	10	The Book of Mormon is a copyof all of the records that were written by the Nephites	FALSE	TRUE		
 Seek	1958	Book of Mormon	Medium	Multiple Choice	10	Jesus told the Nephites that He recieved a commandment of the Father to visit the lost tribes of Israel				
-Seek	1958	Book of Mormon	Easy	Traditional	5	Name the angel who revealed to Joseph Smith the burial place of teh Book of Mormon plates	Moroni			
+Seek	1958	Book of Mormon	Easy	Traditional	5	Name the angel who revealed to Joseph Smith the burial place of the Book of Mormon plates	Moroni			
 Seek	1958	Book of Mormon	Easy	Traditional	5	Name the descendants of Lehi who were cursed with dark skin because of their wickedness	Lamanites			
 Seek	1958	Book of Mormon	Medium	Traditional	15	Which is the longest book in the Book of Mormon?	Alma			
 Seek	1958	Book of Mormon	Medium	Traditional	15	Complete: "When ye are in the ___ of your fellow beings ye are only in the ____ of your God."	Service, service			
@@ -156,7 +155,7 @@ Seek	1958	Doctrine & Organization	Medium	Multiple Choice	15	Choose: When Joseph 
 Seek	1958	Doctrine & Organization	Medium	Multiple Choice	15	Choose: The ultimate destiny of the earth on which we live is to become a 1) telestial world, 2) celestial world, or 3) completely destoryed and never more inhabited	2) celestial world	1) telestial world	3) completely destroyed and never more inhabited	
 Seek	1958	Doctrine & Organization	Medium	Multiple Choice	15	Choose: The Aaronic Priesthood was restored on 1) Dec. 23, 1827, 2) May 15, 1829, or 3) April 6, 1830	2) May 15, 1829	1) Dec. 23, 1827	3) April 6, 1830	
 Seek	1958	Doctrine & Organization	Medium	Multiple Choice	15	Choose: Adam was also known by the name 1) Micheal, 2) Gabriel, 3) Daniel, or 4) Jehovah	1) Micheal	2) Gabriel	3) Daniel	4) Jehovah
-Seek	1958	Doctrine & Organization	Hard	Traditional	25	Complete: "Therefore, O ye that embark in teh service of God, see that ye serve him with all your heart, ____, _____, and _____, that ye may stand blameless before God at the last day."	Might, mind, strength			
+Seek	1958	Doctrine & Organization	Hard	Traditional	25	Complete: "Therefore, O ye that embark in the service of God, see that ye serve him with all your heart, ____, _____, and _____, that ye may stand blameless before God at the last day."	Might, mind, strength			
 Seek	1958	Doctrine & Organization	Hard	Traditional	25	Complete: "For behold this is my work and my glory - to bring pass the ______ and _____ ______ of man."	Immortality, eternal life			
 Seek	1958	Doctrine & Organization	Easy	Multiple Choice	5	Members of the Church who commit sins or trangressions cannot have forgiveness	FALSE	TRUE		
 Seek	1958	Doctrine & Organization	Medium	Traditional	10	Name the personage who restored the Aaronic Priesthood to the earth in the latter days	John the Baptist			
@@ -388,7 +387,7 @@ Who Wants to Be a Celestial Heir?	2000	4	Easy	Multiple Choice	N/A	Nephi said, "I
 Who Wants to Be a Celestial Heir?	2000	4	Easy	Multiple Choice	N/A	Adam fell that men might be, men are that they might ______.	Have joy	Be strong	Get gain	Be fruitful
 Who Wants to Be a Celestial Heir?	2000	4	Easy	Multiple Choice	N/A	King Benjamin taught that "When you are in the service of yout fellow beings ye are only in the service of your ______."	God	King	Brothers	Savior
 Who Wants to Be a Celestial Heir?	2000	4	Easy	Multiple Choice	N/A	From the hymnal, "The day dawn is breaking, the world is awakening, the clouds of night's darkness are ______."	Fleeing away	Flying away	Counsels obeyed	Raining today
-Who Wants to Be a Celestial Heir?	2000	4	Easy	Multiple Choice	N/A	We believe that through the atonement ofo Christ all mankind may be saved, by obedience to teh laws and _______ of the Gospel.	Ordinances	Rules	Principles	Covenants
+Who Wants to Be a Celestial Heir?	2000	4	Easy	Multiple Choice	N/A	We believe that through the atonement ofo Christ all mankind may be saved, by obedience to the laws and _______ of the Gospel.	Ordinances	Rules	Principles	Covenants
 Who Wants to Be a Celestial Heir?	2000	4	Easy	Multiple Choice	N/A	Lay not up for yourselves treasures upon the earth, but what?	Treasures in Heaven	A celestial family	Treasures in secret	Treasures of gold and silver
 Who Wants to Be a Celestial Heir?	2000	4	Children	Multiple Choice	N/A	In Lehi's dream of the tree of life, what was the rod made of?	Iron	Olive wood	Gold	Brass
 Who Wants to Be a Celestial Heir?	2000	4	Easy	Multiple Choice	N/A	After this life, when all men have become immortal, they must appear before ______.	The judgement-seat	Our parents	Satan	The Holy Ghost
@@ -557,7 +556,6 @@ Who Wants to Be a Celestial Heir?	2000	8	Medium	Multiple Choice	N/A	Who was the 
 Who Wants to Be a Celestial Heir?	2000	8	Hard	Multiple Choice	N/A	Desest means bee. What woman's name also means bee?	Deborah	Delilah	Naomi	Esther
 Who Wants to Be a Celestial Heir?	2000	8	Medium	Multiple Choice	N/A	If thou art sorrowful call on the Lord thy God with supplication that your souls may be ______.	Joyful	Uplifted	Saved	Merry
 Who Wants to Be a Celestial Heir?	2000	8	Medium	Multiple Choice	N/A	If thou art merry praise the Lord with singing, with music, with dancing, and with a prayer of praise and ______.	Thanksgiving	Glory	Joy	Supplication
-Who Wants to Be a Celestial Heir?	2000	8	Medium	Multiple Choice	N/A	The righteous shall be gathered out from among all nations, and shall come to Zion singing with songs of ______. Everlasting joy Praise Eternity Thanksgiving Who Wants to Be a Celestial Heir? 2000 8 Medium Multiple Choice N/A Wo unto the rich who will not help the poor, and wo unto the poor whose hearts are not _______."	Broken	Contrite	Righteous	Pure
 Who Wants to Be a Celestial Heir?	2000	8	Medium	Multiple Choice	N/A	The Lord commands and revokes and the disobedient are ______.	Cast off	Disfellowshipped	Poor in heart	Rebellious
 Who Wants to Be a Celestial Heir?	2000	8	Medium	Multiple Choice	N/A	The saints must take up their crosses and follow the Lord to gain ______.	Salvation	Wealth	Righteous desires	A testimony
 Who Wants to Be a Celestial Heir?	2000	8	Hard	Multiple Choice	N/A	What was the name of the prophetess who judged Israel?	Deborah	Delilah	Ruth	Bathsheba
@@ -896,279 +894,279 @@ Zion	1959	N/A	Easy	Traditional	N/A	How old was Joseph Smith when he was killed?	
 Zion	1959	N/A	Medium	Traditional	N/A	What were Hyrum Smith's' last words before he was killed?	I am a dead man			
 Zion	1959	N/A	Medium	Traditional	N/A	How many members are there in a Stake High Council?	12			
 Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	Who was described thus: "Now he was ruddy, and withal of a beautiful countenance, and goodly to look at?"	David			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	The butler's dream was about 3 branches of what plant?	The grapevine			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	What did Joseph have his servants put in Benjamin's sack of food?	His silver cup			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	Azariah is known by what other name in the Bible?	Uzziah			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	What did the 4 lepers at Samaria discover when they went to approach the Syrian army?	The whole army had fled and left all their provisions.			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	He was Jeroboam's son, and his death was foretold by the prophet Ahijah. Who was he?	Abijah			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	What was the fast day ordered by the Law of Moses?	The Day of Atonement			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	Who was traditionally been considered the author of Proverbs?	Solomon			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	Who told the Philistines the answer to Samson's riddle?	His wife-to-be			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	Who, in the Bible, is referred to as the "Ancient of Days"?	Adam			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	Were Cain and Abel Adam's first children?	No (Moses 5:1-17)			
-Jots & Tittles	Unknown	Old Testament	Easy	Traditional	N/A	Who was Solomon's father?	David			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	Because of a rash vow, Jephthah had to sacrifice what?	His only daughter			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	Who were Issachar's parents?	Jacob and Leah			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	What is meant by the worship of the "hosts of heaven"?	Worship of the sun, moon, and stars (a form of idolatry)			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	What happened when the people threw a dead Israelite into the sepulcher of Elisha and he touched Elisha's bones?	He was revived			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	For how many days was the river in Eygpt turned to blood?	Seven			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	How was David related to King Saul?	Saul was his father-in-law			
-Jots & Tittles	Unknown	Old Testament	Easy	Traditional	N/A	Who put goat skins on his hands and neck in order to impersonate his brother?	Jacob			
-Jots & Tittles	Unknown	Old Testament	Easy	Traditional	N/A	To what mountain did Moses lead his people?	Sinai			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	How old was Noah when he entered the ark?	600 years old			
-Jots & Tittles	Unknown	Old Testament	Easy	Traditional	N/A	What caused the diversity of languages on the earth and the scattering of the people?	Building the Tower of Babel			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	In Moses' time, what was kept in the Holy of Holies within the Tabernacle?	The Ark of the Covenant			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	What figures representing heavenly creatures were on the mercy seat of the Ark of the Covenant?	Cherubim			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	Which of Noah's 3 sons was the eldest?	Japheth			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	During the flood, the water rose how much higher than the highest point on the earth?	Fiftenn cubits			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	What instrument like a bagpipe was played in the courts of King Nebuchadnezzar?	Dulcimer			
-Jots & Tittles	Unknown	Old Testament	Easy	Traditional	N/A	What did Elijah promise the widow of Zarephath if she shared her last food with him?	That her barrel of flour and cruse of oil would not fail until the famine ended			
-Jots & Tittles	Unknown	Old Testament	Easy	Traditional	N/A	What is another name for the Stick of Judah?	Bible			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	What does the word Deuteronomy mean?	Repetition of the Law			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	What happened to the men who persuaded Darius to sign the law forbidding prayer?	They and their families were cast into the den of lions			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	What 2 spies gave the only accurate, honorable reports to Moses concerning Canaan?	Caleb and Joshua			
-Jots & Tittles	Unknown	Old Testament	Easy	Traditional	N/A	Who was older, Aaron or Moses?	Aaron			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	Who fed Elijah when he dwelt by the brook Cherith?	Ravens			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	Of what tribe was Caleb?	Judah			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	What happened to the soldiers King Ahaziah sent to apprehend Elijah?	Elijah called down fire to consume them			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	We learn from modern revelation that Abraham recieved the Melcizedek or High Priesthood from whom?	Melchizedek			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	Who was Samuel's father?	Elkanah			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	Out of what did Aaron make the golden calf?	Golden earrings			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	Lot and his daughters were the only ones to escape the destruction of what city?	Sodom			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	What happened to Aaron's rod before Pharaoh and his servants?	It turned into a serpent			
-Jots & Tittles	Unknown	Old Testament	Easy	Traditional	N/A	What did Saul want to do to David after he killed Goliath and saw how much the people loved him?	He wanted to kill him			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	Who was known as the first Hebrew?	Abraham			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	What did the Lord tell Abraham the term "olea" signified?	The moon			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	Bathsheba was originally the wife of whom?	Uriah			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	Who became the nurse to the child of Ruth and Boaz?	Naomi			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	Which ancient temple took approximately 79 years to complete?	Temple of Herod			
-Jots & Tittles	Unknown	Old Testament	Hard	Traditional	N/A	The last record of Methuselah was in the same year as what major event?	The Flood			
-Jots & Tittles	Unknown	Old Testament	Medium	Traditional	N/A	From whom did Rachel get the mandrakes?	Leah			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	In which latter-day temple was the ordinance of baptism for the dead not performed?	Kirtland Temple			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	In January 1959 the First Presidency told missionaries traveling to foreign lands to do what?	Travel by air, not water (MS, Feb. 1959)			
-Jots & Tittles	Unknown	Church History	Easy	Traditional	N/A	At what home was the Church organized?	Peter Whitmer's			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	Who were originally called to the first latter-day First Presidency of the Church?	Joseph Smith, Sidney Rigdon, Jesse Gause			
-Jots & Tittles	Unknown	Church History	Easy	Traditional	N/A	How many brothers and sisters does Joseph Smith have?	Nine (six brothers, 3 sisters)			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	What is the TIB?	Temple Records Index Bureau			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	By what ordinance were men recieved into the into the School of the Prophets?	Ordinance of the washing of feet			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	In 1959 the Mormon Tabernacle Choir recieved a Grammy for its recording of what song?	Battle Hymn of the Republic			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	Nathan Smith, founder of Dartmouth Medical School, performed surgery on which prophet?	He performed the operation that healed Joseph Smith's leg			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	Mormon pioneers were the first to grow what crop in California?	Wheat			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	What is the Brooklyn?	Ship that carried 238 Saints from New York to San Francisco			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	What monthly Church periodical served the Saints in Britain for 130 years?	The Millennial Star			
-Jots & Tittles	Unknown	Church History	Easy	Traditional	N/A	On what date was Joseph Smith born?	December 23, 1805			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	In what publication did the book of Abraham first appear?	The Times and Seasons in Nauvoo			
-Jots & Tittles	Unknown	Church History	Easy	Traditional	N/A	Who was in the jail with Joseph Smith when he was shot?	Hyrum Smith, John Taylor, Willard Richards			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	Who was professed to recieve revelations through a stone and was later chastened by Joseph Smith?	Hiram Page			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	Who dedicated the Salt Lake Temple?	Wilford Woodruff			
-Jots & Tittles	Unknown	Church History	Easy	Traditional	N/A	What three men served as President of the Church during the construction of the Salt Lake Temple?	Brigham Young, John Taylor, Wilford Woodruff			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	D&C 7 is a translation of a record made by whom?	John the Beloved			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	Joseph reprimanded the men of Zion's Camp when they were about to kill what?	Rattlesnakes			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	What was the name of the first Young Women's organization?	Young Ladies' Cooperative Retrenchment Association			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	How many sections were in the first edition of the Doctrine and Covenants?	103			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	What month and year was it announced that the priesthood was available to all worthy male Church members?	June 1978			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	How did Joseph Smith recieve the book of Moses?	By revelation			
-Jots & Tittles	Unknown	Church History	Easy	Traditional	N/A	On what charge were Joseph and Hyrum Smith arrested and put in Carthage Jail?	Treason			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	Of the new revelations recorded in the Doctrine & Covenants, the greatest number were given in what year?	1831			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	The first Primaries took children in what age range?	4-14			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	The very first sentence in the first revelation given to the church after its organization was a command to do what?	Keep a record			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	At a conference in Ohio January 25, 1832, Joseph Smith was sustained and ordained to what position for the first time?	President of the High Priesthood			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	What section of the Doctrine and Covenants contains the revelation that introduced the law of consecration?	D&C 42			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	Joseph Smith baptized Emma Smith's first relative to join the church. What relationship to Emma was he?	Her nephew			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	What was the first foreign language that the Pearl of Great Price was translated into?	Welsh (1852)			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	Who furnishes the clothing for the members of the Tabernacle Choir at Temple Square?	The members of the Tabernacle Choir			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	What early Church leader went on a mission in 1837 and converted almost the entire population of the Fox Islands?	Wilford Woodruff			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	Who was the president of the United States when Joseph Smith was born?	Thomas Jefferson			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	In 1965, what was the missionary quota established for each ward in order to comply with selective service requests?	Two missionaries called per year			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	What Church musical group was organized by Brigham Young?	Tabernacle Choir			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	What day of the week did Brigham Young arrive in the Salt Lake City Valley in July 1847?	Saturday			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	In 1918, what happened to the wheat that had been stored by the Relief Society for over 40 years?	It was purchased by the U.S. government			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	Which hymn in the LDS hymnbook was written by Martin Luther?	A Mighty Fortress			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	Until approximatley the early 1920s, how was the water passed during the sacrament services?	In a "common cup"			
-Jots & Tittles	Unknown	Church History	Easy	Traditional	N/A	The proper title given to all holders of the Melchizedek Priesthood is what?	Elder			
-Jots & Tittles	Unknown	Church History	Easy	Traditional	N/A	What were Brigham Young's words when he first saw the Salt Lake Valley?	This is the right place. Drive on.			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	For what work did Cambridge University Press recieve England's top graphics award for typesetting excellence in 1980?	LDS Edition of the King James Bible			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	How many hours are required to graduate from an Institute of Religion?	24			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	What was the cost of 1 week's board and care when the Deseret Hospital opened in 1882?	$8			
-Jots & Tittles	Unknown	Church History	Easy	Traditional	N/A	What is the name of the corporation that broadcasts general conference from Utah?	Bonneville International			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	His formal schooling consisted of 11 days under a traveling schoolmaster. Who was he?	Brigham Young			
-Jots & Tittles	Unknown	Church History	Medium	Traditional	N/A	Who was the 10th President of the Church?	Joseph Fielding Smith			
-Jots & Tittles	Unknown	Church History	Hard	Traditional	N/A	What term was originally used for those who bought property from the Saints during the exodus from Nauvoo?	Jack Mormons			
-Jots & Tittles	Unknown	Church People	Easy	Traditional	N/A	Of the first 9 presidents of the Church, who was the only one who did not work in Europe while in the Council of the Twelve?	Jospeh Smith			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	For what woman in Church history is the annual all-Church woman's poetry contest named?	Eliza R. Snow			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	Which of the early apostles has been described as "one of the greatest mathematicians of modern times"?	Orson Pratt			
-Jots & Tittles	Unknown	Church People		Traditional	N/A	Mary Fielding became the wife of what early church leader?	Hyrum Smith			
-Jots & Tittles	Unknown	Church People	Easy	Traditional	N/A	Who set up the first store in Kirtland?	Newel K. Whitney			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	What apostle served as editor of the 3 church magazines?	James E. Faust			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	Whose marriage was the first of the twentieth century in the Salt Lake Temple?	David and Emma Ray Riggs McKay			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	The wife of which prisoner at Richmond Jail voluntarily stayed with him most of the winter of 1838-39?	Parley P. Pratt			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Who as the first Church president whose parents were Church members when he was born?	Joseph F. Smith			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	Which prophet fell into a kettle of boiling water at age 3 and almost died?	Wilford Woodruff			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Who was a counselor to 4 Church presidents before becoming president himself?	Joseph F. Smith			
-Jots & Tittles	Unknown	Church People		Traditional	N/A	Which of Joseph Smith's brothers served as a member of the first Quorum of the Twelve and was later excommunicated?	William Smith			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Who was president of the Church for the longest period of time?	Brigham Young			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	What was the cause of death of Frederick G. Williams?	Hemorrhage of the lungs			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	Who was the first editor of the Wasp?	William Smith			
-Jots & Tittles	Unknown	Church People	Easy	Traditional	N/A	Who saw, with Joseph Smith, the vision of the 3 degrees of glory?	Sidney Rigdon			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Who originally sent the Saints to colonize at Las Vegas?	Brigham Young			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	What apostle was a member of the Webster Dictionary board?	James E. Talmage			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Who was the shortest church president?	Lorenzo Snow (5ft 6inches)			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	What person was rebaptized a member of the Church by Orson Hyde on November 12, 1848	Oliver Cowdery			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	What famous author visited the Saints on board the Amazon before it left London?	Charles Dickens			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Ezra Booth and the John Jonhson familu were converted by what miracle performed by Joseph Smith?	The healing of Mrs. Johnson's lame arm			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	What was the name of Joseph Smith's youngest sister?	Lucy			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	When Brigham Young died, who was president of the Quorum of the Twelve Apostles?	John Taylor			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	What type of plays did Brigham Young insist not be performed in the Salt Lake Theatre?	Tragedies			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	What 2 men did Brigham Young select as his counselors when he was sustained as president of the Church in 1847?	Heber C. Kimball and Willard Richards			
-Jots & Tittles	Unknown	Church People	Easy	Traditional	N/A	Who suceeded Joseph Smith as lieutenant general of the Nauvoo Legion?	Brigham Young			
-Jots & Tittles	Unknown	Church People	Easy	Traditional	N/A	Brigham Young was transfigured before an assembly of the church on August 8, 1844. Who was the other main speaker?	Sidney Rigdon			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	How many presidents of the Church lived the law of plural marriage?	Six. Joseph Smith through Heber J. Grant			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	Who conducted the Relief Society in Winter Quarters?	Elizabeth Ann Whitney			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	When John Taylor became president of the church, who were chosen as his counselors?	George Q. Cannon and Joseph F. Smith			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	How many times did Brigham Young cross the plains?	Three (to Salt Lake Valley, back to Winter Quarters, to Salt Lake Valley			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	What was the name of Josep's son born 5 months after his martyrdom?	David Hyrum Smith			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Who was the second mayor of Nauvoo?	Joseph Smith			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	What was the cause of Brigham Young's death?	Complications from a ruptured appendix			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	How old was Joseph Smith when the Church was organized?	Twenty-four			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	Who was the first bishop called in the restored church?	Edward Partridge			
-Jots & Tittles	Unknown	Church People	Easy	Traditional	N/A	Whom did the Lord instruct to make the first collection of hymns to be used in the Church?	Emma Smith			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Under whose administration was the priesthood given to all worthy male members?	Spencer W. Kimball			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Who wrote "Come, Come Ye Saints"?	William Clayton			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	Under which Church president was the Primary organization started?	John Taylor			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	What prophet was underwater for 15 minutes and revived by mouth-to-mouth resuscitation?	Lorenzo Snow			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	Who met with President Polk and arranged for the government to help the Saints by enlisting 500 men in the U.S. Army?	Colonel Thomas Kane			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Who served for the longest period of time in the First Presidency and Council of the Twelve?	David O. McKay (63 years 9 months)			
-Jots & Tittles	Unknown	Church People	Easy	Traditional	N/A	Who wrote the hymn "Praise to the Man"?	William W. Phelps			
-Jots & Tittles	Unknown	Church People	Hard	Traditional	N/A	Of what religious group was Parley P. Pratt a preacher before he joined the church?	Campbellite (Disciples of Christ)			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Who was the president of the first Quorum of the Twelve?	Thomas B. Marsh			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	While Joseph Smith was on a mission in Michigan in 1837, some members of the Twelve proposed replacing him with whom as prophet?	David Whitmer			
-Jots & Tittles	Unknown	Church People	Easy	Traditional	N/A	Heber C. Kimball had 65 what?	Children			
-Jots & Tittles	Unknown	Church People	Medium	Traditional	N/A	Who was the eighth president of the Church?	George Albert Smith			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	What was Luke's profession?	Physician			
-Jots & Tittles	Unknown	New Testament	Hard	Traditional	N/A	All scripture now found in the Bible was first written between about 1500 B.C. and what year A.D.?	One hundred			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	Julius, Octavius, Augustusm Tiberiusm Caligula, and Claudius all bore what surname?	Caeser			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Where was Paul when he wrote his epistle to the Colossians?	In prison in Rome			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Outside Palestine, the gospel was preached in what language?	Greek			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Which are commonly called the synoptic gospels?	Matthew, Mark, and Luke			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	To whom was Jesus' mother entrusted at his death?	John			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Among the Jews, when praying, where was it the custom to face?	Toward Jerusalem			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	In the parable of the prodigal son, what job did the younger son end up doing after he ran out of money?	Feeding swine in the fields			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	How was John the Baptist killed?	He was beheaded			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	The word gospel is dervived from what 2 old English words?	God (good) abd spel (story or tidings)			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	What apostle took part in the martyrdom of Stephen before his conversion?	Paul			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	What was the more popular party, Pharisees or Sadducees?	Pharisees			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	Crucifixion was a form of punishment introduced by what people?	The Romans			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	The book of Revelations represents Babylon as the great what?	Harlot			
-Jots & Tittles	Unknown	New Testament	Hard	Traditional	N/A	Barnabas was a native of what place?	Cyprus			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	To what group does Paul first offer the gospel?	To the Jews			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	In which parable do we find, "They know my voice and will not follow a stranger"	Parable of the Good Shepherd			
-Jots & Tittles	Unknown	New Testament	Hard	Traditional	N/A	What did the devil show to Jesus up on the high mountain?	All the kingdoms of the world			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	An edict from where sent Mary and Joseph from Nazareth to Bethlehem?	Rome			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	What was Jesus' first recorded miracle?	Changing water to wine ar the marriage in Cana			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	Who was the angel that appeared to Zacharias?	Gabriel			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Who supplied the tomb for Jesus?	Joseph of Arimathaea			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	How much did the widow cast into the treasury?	Two mites			
-Jots & Tittles	Unknown	New Testament	Hard	Traditional	N/A	Matthew lists Jesus' brothers. Who were they?	James, Joses, Simon, Judas (Judes)			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Which prophet was carried away and ordained by an angel when 8 days old?	John the Baptist			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	In John's vision, he saw the signs of the times when which seal was opened?	The sixth			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	How long did Jesus minister to his apostles after his resurrection?	Forty Days			
-Jots & Tittles	Unknown	New Testament	Hard	Traditional	N/A	What name for Christ is found only 4 times in the King James version of the Bible?	Jehova			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Mark wrote his Gospel under whose direction?	Peter's			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Who was the father of James and John?	Zebedee			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	According to the gospel of Mark, what was the crime that Barnabas had committed?	Murder			
-Jots & Tittles	Unknown	New Testament	Hard	Traditional	N/A	What was Paul's occupation?	Tentmaker			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Of what profession was the Pharisee who asked, "Master, which is the great commandment in the law?"	Lawyer			
-Jots & Tittles	Unknown	New Testament	Hard	Traditional	N/A	Early in the Christen era, the Jewish people knew the Bible by what name?	Septuagint			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	What were Jesus' first words on the cross?	Father, forgive them not for they know not what the do			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	Who was the prophetess in the temple who recognized the baby Jesus as the Messiah?	Anna			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	How many days after His birth was Jesus officially named?	Eight			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Which of the apostles were called the Sons of Thunder?	James and John			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	What occurred during Jesus' prayer in the Garden of Gethsemane to strengthen him?	An angel appeared			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	With what event do the Gospels of Mark and John begin?	The ministry of John the Baptist			
-Jots & Tittles	Unknown	New Testament	Easy	Traditional	N/A	Who was the last surviving apostle before the Great Apostacy?	John			
-Jots & Tittles	Unknown	New Testament	Hard	Traditional	N/A	While in his youth, Saul went to Jerusalem to be educated as what?	A rabbi			
-Jots & Tittles	Unknown	New Testament	Hard	Traditional	N/A	Besides Jesus and God, whose name is the last mentioned in the Bible?	David			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	The devils Jesus cast out of the man in the Gadarenes entered the bodies of how many swine?	2000			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	What was the group of people hated most by the Jews?	The Samaritans			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Which is the only gospel naming Nathanael as Bartholomew?	John			
-Jots & Tittles	Unknown	New Testament	Medium	Traditional	N/A	Who outran Peter to the sepulchre to look for Christ?	John			
-Jots & Tittles	Unknown	New Testament	Hard	Traditional	N/A	Jesus was the Greek form of what Hebrew name?	Joshua			
-Jots & Tittles	Unknown	New Testament	Hard	Traditional	N/A	Who was the woman disciple also known as Tabitha that Peter raised from the dead at Joppa?	Dorcas			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	Why did the Lord chasten the brother of Jared for three hours?	Because he had failed to pray for four years.			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	When Mormon was 15 years old, by whom was he visted?	The Lord			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	Who told Moroni of Morianton's plan to lead a group of people to the noth and take possession of that land?	Morianton's maid servant who had been beaten by Morianton			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	Which son of Paharon was sentenced to death because he tried to destroy the liberty of the people?	Paanchi			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	In the 37th year of the judges, how did the Nephites begin to travel to the land northward?	By ship			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	Which two of his sons did Alma the younger take with him to preach to the Zormaites	Shiblon and Corianton			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	What 2 sets of plates did Limhi's people bring to Zarahemla?	Their own records (record of Zeniff) and the 24 gold plates of Ether			
-Jots & Tittles	Unknown	Book of Mormon	Hard	Traditional	N/A	In what land did King Kib live?	Moron			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	To whom did Jacob entrust the plates before his death?	Enos			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	We know much about King Benjamin and his sons Mosiah and Helaman. Who was his third son?	Helorum			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	How old was Mormon when he was made leader of th Nephite armies?	Sixteen			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	When the major war in the 25th year of th the judges began, who led the Lamanite armies to battle?	Amalickiah			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	How did Moroni fortify all the cities of thre Nephites?	By surrounding them with mounds of dirt upon which stood timber fences.			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	What happened to the man who tried to kill Ammon because Ammon had killed his brother?	He was struck dead.			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	What ocean did the Nephites cross to get to America?	Pacific			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	Who replaced Amalickiah as king over the Lamanites?	Ammoron			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	What nephite king lived at the same time as King Noah?	King Benjamin			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	Jared's barges were as watertight as a what?	a dish			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	What French word ends the book of Jacob?	Adieu			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	What Nephite prophet, as chief judge, condemned nehor to die?	Alma the Younger			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	How long were Ammon and his bretheren in prison before they were taken to King Limhi?	Two days			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	What did Moroni have his Lamanite prisoner take to the Lamanites guarding the Nephite prison?	Wine			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	Who was Lehi's youngest son at the time he left Jerusalem?	Nephi			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	Of the chief judges named in the Book of Mormon, how many resigned to pursue missionary work?	Two days			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	Name 2 Book of Mormon prophets whose sons refused to become kings.	Mosiah and the Brother of Jared			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	Senine, seon, shum, and limnah were all monetary amounts of what metal?	gold			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	The word Liahona is a combination of what 2 languages?	Hebrew and Egyptian			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	What 2 Old Testament prophets did the resurrected Christ quote to the Nephites?	Isaiah and Malachi			
-Jots & Tittles	Unknown	Book of Mormon	Hard	Traditional	N/A	How did the "Pronouncing Vocabulary" in the Book of Mormon come into being?	From a Book of Mormon convention held at BYU in 1903			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	How many Lamanite daughters were stolen by the priests of Noah?	24			
-Jots & Tittles	Unknown	Book of Mormon	Hard	Traditional	N/A	Whom did Govenor Lachoneus receive a letter from?	Giddianhi			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	In the Book of Mormon, ziff is mentioned as a type of what?	Metal			
-Jots & Tittles	Unknown	Book of Mormon	Hard	Traditional	N/A	After the battle with the brother of Shared, where did the army of Coriantur dwell for 2 years?	In the wilderness			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	What position did Alma the younger relinquish to Nephihah?	Cheif Judge			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	What is another name for the "miraculous directors" that were shown to the Three Witnesses?	Liahona			
-Jots & Tittles	Unknown	Book of Mormon	Easy	Traditional	N/A	The plates of Ether contained the history of what people?	The Jaredites			
-Jots & Tittles	Unknown	Book of Mormon	Hard	Traditional	N/A	What incident is believed to be depicted on Izapa, Stela 5?	Lehi and the Tree of Life			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	Where did Ether hide while he was writing the Jaredite record?	In a cave in the rock			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	To what son did Nephi, son of Helaman, give the sacred plates?	Nephi			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	What title for Christ is used in the last sentence of the Book of Mormon?	Jehovah			
-Jots & Tittles	Unknown	Book of Mormon	Hard	Traditional	N/A	How many friends did Jared and his brothers take with them?	Twenty-two			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	What did King Noah have built near the temple?	A lookout tower			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	What reason did Jarom give for not writing more on the plates?	The plates were small			
-Jots & Tittles	Unknown	Book of Mormon	Hard	Traditional	N/A	In about what year did Moroni seal and hide the plates?	A.D. 421			
-Jots & Tittles	Unknown	Book of Mormon	Hard	Traditional	N/A	What is ephah?	A measure of dry weight (about 8 gallons)			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	What was Irreantum?	The name Lehi gave to the sea at Bountiful			
-Jots & Tittles	Unknown	Book of Mormon	Medium	Traditional	N/A	What is the first instance of death mentioned in the Book of Mormon?	The armies of Pharoh drowning in the Red Sea			
-Jots & Tittles	Unknown	Book of Mormon	Hard	Traditional	N/A	In what month did the first Book of Mormon copies come off the press?	March			
-Jots & Tittles	Unknown	Book of Mormon	Hard	Traditional	N/A	Toward what city did Coriantumr march after taking Zarahemla?	Bountiful			
-Jots & Tittles	Unknown	Book of Mormon	Hard	Traditional	N/A	Whom did Coriantumr smite against the wall?	Pacumeni			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Where on the Arabian Peninsula do trees grow large enough to build a ship such as Nephi built?	Salalah			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	What is another name for Bethlehem?	City of David			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Where did Jesus select Peter, Andrew, James, and John to be disciples?	Sea of Galilee			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Doctrine and Covenants 121 was taken from a letter Joseph Smith wrote where?	Liberty Jail			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Tens and Thousands of Saints from Britain and Europe igrated to Zion from what British harbor?	Liverpool			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	In what early Church town would you have found streets named Joseph, Hyrum, Sidney, Parley, Kimball, and Partridge?	Nauvoo			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	What is the body of water into which the Jordan River flows?	The Dead Sea			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	In what city did Jesus attend a wedding?	Cana			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	What two presidents of the Church were born in Vermont?	Joseph Smith and Brigham Young			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Where was Lehi camped when the Liahona appeared outside his tent?	Valley of Lemuel			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Joseph, Rebekah, and Rachel were all born in what modern-day country?	Syria			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	What does Golgotha mean?	A skull			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	On July 4, 1838, cornerstones were laid for a temple that has never been built. Where is this site?	Far West, Missouri			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Where was the Pearl of Great Price first published?	England			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	When Alma's people fled Helam, where did they travel to?	Zarahemla			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	What is the modern political capital of Syria?	Damascus			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Near what mountain did Moses smite the rock and water came forth?	Horeb			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Where was Joseph Smith baptized?	Susquehanna River in Pennsylvania			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Where did the final battle between the Lamanites and Nehites take place?	Cumorah			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	In 1853, a block of stone from the "State of Deseret" was sent to Washington, D.C., for placement in what monument?	Washington Monument			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Name the city or town where the angel appeared to Mary.	Nazareth			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	How did the pioneer landmark, The Sweetwater, get its name?	At one time a pack mule laden with sugar was lost in the stream			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	Jebus is another name for what place?	Jerusalem			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	If 10 people who lived righteous lives had been found, what cities would have been spared destruction?	Sodom and Gomorrah			
-Jots & Tittles	Unknown	Church Places	Medium	Traditional	N/A	What was the name given by the Nephites to the whole of North America?	Land of Mulek			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	The butler's dream was about 3 branches of what plant?	The grapevine			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	What did Joseph have his servants put in Benjamin's sack of food?	His silver cup			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	Azariah is known by what other name in the Bible?	Uzziah			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	What did the 4 lepers at Samaria discover when they went to approach the Syrian army?	The whole army had fled and left all their provisions.			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	He was Jeroboam's son, and his death was foretold by the prophet Ahijah. Who was he?	Abijah			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	What was the fast day ordered by the Law of Moses?	The Day of Atonement			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	Who was traditionally been considered the author of Proverbs?	Solomon			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	Who told the Philistines the answer to Samson's riddle?	His wife-to-be			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	Who, in the Bible, is referred to as the "Ancient of Days"?	Adam			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	Were Cain and Abel Adam's first children?	No (Moses 5:1-17)			
+Jots & Tittles	1984	Old Testament	Easy	Traditional	N/A	Who was Solomon's father?	David			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	Because of a rash vow, Jephthah had to sacrifice what?	His only daughter			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	Who were Issachar's parents?	Jacob and Leah			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	What is meant by the worship of the "hosts of heaven"?	Worship of the sun, moon, and stars (a form of idolatry)			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	What happened when the people threw a dead Israelite into the sepulcher of Elisha and he touched Elisha's bones?	He was revived			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	For how many days was the river in Eygpt turned to blood?	Seven			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	How was David related to King Saul?	Saul was his father-in-law			
+Jots & Tittles	1984	Old Testament	Easy	Traditional	N/A	Who put goat skins on his hands and neck in order to impersonate his brother?	Jacob			
+Jots & Tittles	1984	Old Testament	Easy	Traditional	N/A	To what mountain did Moses lead his people?	Sinai			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	How old was Noah when he entered the ark?	600 years old			
+Jots & Tittles	1984	Old Testament	Easy	Traditional	N/A	What caused the diversity of languages on the earth and the scattering of the people?	Building the Tower of Babel			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	In Moses' time, what was kept in the Holy of Holies within the Tabernacle?	The Ark of the Covenant			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	What figures representing heavenly creatures were on the mercy seat of the Ark of the Covenant?	Cherubim			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	Which of Noah's 3 sons was the eldest?	Japheth			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	During the flood, the water rose how much higher than the highest point on the earth?	Fiftenn cubits			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	What instrument like a bagpipe was played in the courts of King Nebuchadnezzar?	Dulcimer			
+Jots & Tittles	1984	Old Testament	Easy	Traditional	N/A	What did Elijah promise the widow of Zarephath if she shared her last food with him?	That her barrel of flour and cruse of oil would not fail until the famine ended			
+Jots & Tittles	1984	Old Testament	Easy	Traditional	N/A	What is another name for the Stick of Judah?	Bible			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	What does the word Deuteronomy mean?	Repetition of the Law			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	What happened to the men who persuaded Darius to sign the law forbidding prayer?	They and their families were cast into the den of lions			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	What 2 spies gave the only accurate, honorable reports to Moses concerning Canaan?	Caleb and Joshua			
+Jots & Tittles	1984	Old Testament	Easy	Traditional	N/A	Who was older, Aaron or Moses?	Aaron			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	Who fed Elijah when he dwelt by the brook Cherith?	Ravens			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	Of what tribe was Caleb?	Judah			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	What happened to the soldiers King Ahaziah sent to apprehend Elijah?	Elijah called down fire to consume them			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	We learn from modern revelation that Abraham recieved the Melcizedek or High Priesthood from whom?	Melchizedek			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	Who was Samuel's father?	Elkanah			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	Out of what did Aaron make the golden calf?	Golden earrings			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	Lot and his daughters were the only ones to escape the destruction of what city?	Sodom			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	What happened to Aaron's rod before Pharaoh and his servants?	It turned into a serpent			
+Jots & Tittles	1984	Old Testament	Easy	Traditional	N/A	What did Saul want to do to David after he killed Goliath and saw how much the people loved him?	He wanted to kill him			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	Who was known as the first Hebrew?	Abraham			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	What did the Lord tell Abraham the term "olea" signified?	The moon			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	Bathsheba was originally the wife of whom?	Uriah			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	Who became the nurse to the child of Ruth and Boaz?	Naomi			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	Which ancient temple took approximately 79 years to complete?	Temple of Herod			
+Jots & Tittles	1984	Old Testament	Hard	Traditional	N/A	The last record of Methuselah was in the same year as what major event?	The Flood			
+Jots & Tittles	1984	Old Testament	Medium	Traditional	N/A	From whom did Rachel get the mandrakes?	Leah			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	In which latter-day temple was the ordinance of baptism for the dead not performed?	Kirtland Temple			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	In January 1959 the First Presidency told missionaries traveling to foreign lands to do what?	Travel by air, not water (MS, Feb. 1959)			
+Jots & Tittles	1984	Church History	Easy	Traditional	N/A	At what home was the Church organized?	Peter Whitmer's			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	Who were originally called to the first latter-day First Presidency of the Church?	Joseph Smith, Sidney Rigdon, Jesse Gause			
+Jots & Tittles	1984	Church History	Easy	Traditional	N/A	How many brothers and sisters does Joseph Smith have?	Nine (six brothers, 3 sisters)			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	What is the TIB?	Temple Records Index Bureau			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	By what ordinance were men recieved into the into the School of the Prophets?	Ordinance of the washing of feet			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	In 1959 the Mormon Tabernacle Choir recieved a Grammy for its recording of what song?	Battle Hymn of the Republic			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	Nathan Smith, founder of Dartmouth Medical School, performed surgery on which prophet?	He performed the operation that healed Joseph Smith's leg			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	Mormon pioneers were the first to grow what crop in California?	Wheat			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	What is the Brooklyn?	Ship that carried 238 Saints from New York to San Francisco			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	What monthly Church periodical served the Saints in Britain for 130 years?	The Millennial Star			
+Jots & Tittles	1984	Church History	Easy	Traditional	N/A	On what date was Joseph Smith born?	December 23, 1805			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	In what publication did the book of Abraham first appear?	The Times and Seasons in Nauvoo			
+Jots & Tittles	1984	Church History	Easy	Traditional	N/A	Who was in the jail with Joseph Smith when he was shot?	Hyrum Smith, John Taylor, Willard Richards			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	Who was professed to recieve revelations through a stone and was later chastened by Joseph Smith?	Hiram Page			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	Who dedicated the Salt Lake Temple?	Wilford Woodruff			
+Jots & Tittles	1984	Church History	Easy	Traditional	N/A	What three men served as President of the Church during the construction of the Salt Lake Temple?	Brigham Young, John Taylor, Wilford Woodruff			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	D&C 7 is a translation of a record made by whom?	John the Beloved			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	Joseph reprimanded the men of Zion's Camp when they were about to kill what?	Rattlesnakes			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	What was the name of the first Young Women's organization?	Young Ladies' Cooperative Retrenchment Association			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	How many sections were in the first edition of the Doctrine and Covenants?	103			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	What month and year was it announced that the priesthood was available to all worthy male Church members?	June 1978			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	How did Joseph Smith recieve the book of Moses?	By revelation			
+Jots & Tittles	1984	Church History	Easy	Traditional	N/A	On what charge were Joseph and Hyrum Smith arrested and put in Carthage Jail?	Treason			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	Of the new revelations recorded in the Doctrine & Covenants, the greatest number were given in what year?	1831			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	The first Primaries took children in what age range?	4-14			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	The very first sentence in the first revelation given to the church after its organization was a command to do what?	Keep a record			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	At a conference in Ohio January 25, 1832, Joseph Smith was sustained and ordained to what position for the first time?	President of the High Priesthood			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	What section of the Doctrine and Covenants contains the revelation that introduced the law of consecration?	D&C 42			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	Joseph Smith baptized Emma Smith's first relative to join the church. What relationship to Emma was he?	Her nephew			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	What was the first foreign language that the Pearl of Great Price was translated into?	Welsh (1852)			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	Who furnishes the clothing for the members of the Tabernacle Choir at Temple Square?	The members of the Tabernacle Choir			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	What early Church leader went on a mission in 1837 and converted almost the entire population of the Fox Islands?	Wilford Woodruff			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	Who was the president of the United States when Joseph Smith was born?	Thomas Jefferson			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	In 1965, what was the missionary quota established for each ward in order to comply with selective service requests?	Two missionaries called per year			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	What Church musical group was organized by Brigham Young?	Tabernacle Choir			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	What day of the week did Brigham Young arrive in the Salt Lake City Valley in July 1847?	Saturday			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	In 1918, what happened to the wheat that had been stored by the Relief Society for over 40 years?	It was purchased by the U.S. government			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	Which hymn in the LDS hymnbook was written by Martin Luther?	A Mighty Fortress			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	Until approximatley the early 1920s, how was the water passed during the sacrament services?	In a "common cup"			
+Jots & Tittles	1984	Church History	Easy	Traditional	N/A	The proper title given to all holders of the Melchizedek Priesthood is what?	Elder			
+Jots & Tittles	1984	Church History	Easy	Traditional	N/A	What were Brigham Young's words when he first saw the Salt Lake Valley?	This is the right place. Drive on.			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	For what work did Cambridge University Press recieve England's top graphics award for typesetting excellence in 1980?	LDS Edition of the King James Bible			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	How many hours are required to graduate from an Institute of Religion?	24			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	What was the cost of 1 week's board and care when the Deseret Hospital opened in 1882?	$8			
+Jots & Tittles	1984	Church History	Easy	Traditional	N/A	What is the name of the corporation that broadcasts general conference from Utah?	Bonneville International			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	His formal schooling consisted of 11 days under a traveling schoolmaster. Who was he?	Brigham Young			
+Jots & Tittles	1984	Church History	Medium	Traditional	N/A	Who was the 10th President of the Church?	Joseph Fielding Smith			
+Jots & Tittles	1984	Church History	Hard	Traditional	N/A	What term was originally used for those who bought property from the Saints during the exodus from Nauvoo?	Jack Mormons			
+Jots & Tittles	1984	Church People	Easy	Traditional	N/A	Of the first 9 presidents of the Church, who was the only one who did not work in Europe while in the Council of the Twelve?	Jospeh Smith			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	For what woman in Church history is the annual all-Church woman's poetry contest named?	Eliza R. Snow			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	Which of the early apostles has been described as "one of the greatest mathematicians of modern times"?	Orson Pratt			
+Jots & Tittles	1984	Church People		Traditional	N/A	Mary Fielding became the wife of what early church leader?	Hyrum Smith			
+Jots & Tittles	1984	Church People	Easy	Traditional	N/A	Who set up the first store in Kirtland?	Newel K. Whitney			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	What apostle served as editor of the 3 church magazines?	James E. Faust			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	Whose marriage was the first of the twentieth century in the Salt Lake Temple?	David and Emma Ray Riggs McKay			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	The wife of which prisoner at Richmond Jail voluntarily stayed with him most of the winter of 1838-39?	Parley P. Pratt			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Who as the first Church president whose parents were Church members when he was born?	Joseph F. Smith			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	Which prophet fell into a kettle of boiling water at age 3 and almost died?	Wilford Woodruff			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Who was a counselor to 4 Church presidents before becoming president himself?	Joseph F. Smith			
+Jots & Tittles	1984	Church People		Traditional	N/A	Which of Joseph Smith's brothers served as a member of the first Quorum of the Twelve and was later excommunicated?	William Smith			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Who was president of the Church for the longest period of time?	Brigham Young			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	What was the cause of death of Frederick G. Williams?	Hemorrhage of the lungs			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	Who was the first editor of the Wasp?	William Smith			
+Jots & Tittles	1984	Church People	Easy	Traditional	N/A	Who saw, with Joseph Smith, the vision of the 3 degrees of glory?	Sidney Rigdon			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Who originally sent the Saints to colonize at Las Vegas?	Brigham Young			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	What apostle was a member of the Webster Dictionary board?	James E. Talmage			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Who was the shortest church president?	Lorenzo Snow (5ft 6inches)			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	What person was rebaptized a member of the Church by Orson Hyde on November 12, 1848	Oliver Cowdery			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	What famous author visited the Saints on board the Amazon before it left London?	Charles Dickens			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Ezra Booth and the John Jonhson familu were converted by what miracle performed by Joseph Smith?	The healing of Mrs. Johnson's lame arm			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	What was the name of Joseph Smith's youngest sister?	Lucy			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	When Brigham Young died, who was president of the Quorum of the Twelve Apostles?	John Taylor			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	What type of plays did Brigham Young insist not be performed in the Salt Lake Theatre?	Tragedies			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	What 2 men did Brigham Young select as his counselors when he was sustained as president of the Church in 1847?	Heber C. Kimball and Willard Richards			
+Jots & Tittles	1984	Church People	Easy	Traditional	N/A	Who suceeded Joseph Smith as lieutenant general of the Nauvoo Legion?	Brigham Young			
+Jots & Tittles	1984	Church People	Easy	Traditional	N/A	Brigham Young was transfigured before an assembly of the church on August 8, 1844. Who was the other main speaker?	Sidney Rigdon			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	How many presidents of the Church lived the law of plural marriage?	Six. Joseph Smith through Heber J. Grant			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	Who conducted the Relief Society in Winter Quarters?	Elizabeth Ann Whitney			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	When John Taylor became president of the church, who were chosen as his counselors?	George Q. Cannon and Joseph F. Smith			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	How many times did Brigham Young cross the plains?	Three (to Salt Lake Valley, back to Winter Quarters, to Salt Lake Valley			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	What was the name of Josep's son born 5 months after his martyrdom?	David Hyrum Smith			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Who was the second mayor of Nauvoo?	Joseph Smith			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	What was the cause of Brigham Young's death?	Complications from a ruptured appendix			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	How old was Joseph Smith when the Church was organized?	Twenty-four			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	Who was the first bishop called in the restored church?	Edward Partridge			
+Jots & Tittles	1984	Church People	Easy	Traditional	N/A	Whom did the Lord instruct to make the first collection of hymns to be used in the Church?	Emma Smith			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Under whose administration was the priesthood given to all worthy male members?	Spencer W. Kimball			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Who wrote "Come, Come Ye Saints"?	William Clayton			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	Under which Church president was the Primary organization started?	John Taylor			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	What prophet was underwater for 15 minutes and revived by mouth-to-mouth resuscitation?	Lorenzo Snow			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	Who met with President Polk and arranged for the government to help the Saints by enlisting 500 men in the U.S. Army?	Colonel Thomas Kane			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Who served for the longest period of time in the First Presidency and Council of the Twelve?	David O. McKay (63 years 9 months)			
+Jots & Tittles	1984	Church People	Easy	Traditional	N/A	Who wrote the hymn "Praise to the Man"?	William W. Phelps			
+Jots & Tittles	1984	Church People	Hard	Traditional	N/A	Of what religious group was Parley P. Pratt a preacher before he joined the church?	Campbellite (Disciples of Christ)			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Who was the president of the first Quorum of the Twelve?	Thomas B. Marsh			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	While Joseph Smith was on a mission in Michigan in 1837, some members of the Twelve proposed replacing him with whom as prophet?	David Whitmer			
+Jots & Tittles	1984	Church People	Easy	Traditional	N/A	Heber C. Kimball had 65 what?	Children			
+Jots & Tittles	1984	Church People	Medium	Traditional	N/A	Who was the eighth president of the Church?	George Albert Smith			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	What was Luke's profession?	Physician			
+Jots & Tittles	1984	New Testament	Hard	Traditional	N/A	All scripture now found in the Bible was first written between about 1500 B.C. and what year A.D.?	One hundred			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	Julius, Octavius, Augustusm Tiberiusm Caligula, and Claudius all bore what surname?	Caeser			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Where was Paul when he wrote his epistle to the Colossians?	In prison in Rome			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Outside Palestine, the gospel was preached in what language?	Greek			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Which are commonly called the synoptic gospels?	Matthew, Mark, and Luke			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	To whom was Jesus' mother entrusted at his death?	John			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Among the Jews, when praying, where was it the custom to face?	Toward Jerusalem			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	In the parable of the prodigal son, what job did the younger son end up doing after he ran out of money?	Feeding swine in the fields			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	How was John the Baptist killed?	He was beheaded			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	The word gospel is dervived from what 2 old English words?	God (good) abd spel (story or tidings)			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	What apostle took part in the martyrdom of Stephen before his conversion?	Paul			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	What was the more popular party, Pharisees or Sadducees?	Pharisees			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	Crucifixion was a form of punishment introduced by what people?	The Romans			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	The book of Revelations represents Babylon as the great what?	Harlot			
+Jots & Tittles	1984	New Testament	Hard	Traditional	N/A	Barnabas was a native of what place?	Cyprus			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	To what group does Paul first offer the gospel?	To the Jews			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	In which parable do we find, "They know my voice and will not follow a stranger"	Parable of the Good Shepherd			
+Jots & Tittles	1984	New Testament	Hard	Traditional	N/A	What did the devil show to Jesus up on the high mountain?	All the kingdoms of the world			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	An edict from where sent Mary and Joseph from Nazareth to Bethlehem?	Rome			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	What was Jesus' first recorded miracle?	Changing water to wine ar the marriage in Cana			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	Who was the angel that appeared to Zacharias?	Gabriel			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Who supplied the tomb for Jesus?	Joseph of Arimathaea			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	How much did the widow cast into the treasury?	Two mites			
+Jots & Tittles	1984	New Testament	Hard	Traditional	N/A	Matthew lists Jesus' brothers. Who were they?	James, Joses, Simon, Judas (Judes)			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Which prophet was carried away and ordained by an angel when 8 days old?	John the Baptist			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	In John's vision, he saw the signs of the times when which seal was opened?	The sixth			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	How long did Jesus minister to his apostles after his resurrection?	Forty Days			
+Jots & Tittles	1984	New Testament	Hard	Traditional	N/A	What name for Christ is found only 4 times in the King James version of the Bible?	Jehova			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Mark wrote his Gospel under whose direction?	Peter's			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Who was the father of James and John?	Zebedee			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	According to the gospel of Mark, what was the crime that Barnabas had committed?	Murder			
+Jots & Tittles	1984	New Testament	Hard	Traditional	N/A	What was Paul's occupation?	Tentmaker			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Of what profession was the Pharisee who asked, "Master, which is the great commandment in the law?"	Lawyer			
+Jots & Tittles	1984	New Testament	Hard	Traditional	N/A	Early in the Christen era, the Jewish people knew the Bible by what name?	Septuagint			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	What were Jesus' first words on the cross?	Father, forgive them not for they know not what the do			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	Who was the prophetess in the temple who recognized the baby Jesus as the Messiah?	Anna			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	How many days after His birth was Jesus officially named?	Eight			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Which of the apostles were called the Sons of Thunder?	James and John			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	What occurred during Jesus' prayer in the Garden of Gethsemane to strengthen him?	An angel appeared			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	With what event do the Gospels of Mark and John begin?	The ministry of John the Baptist			
+Jots & Tittles	1984	New Testament	Easy	Traditional	N/A	Who was the last surviving apostle before the Great Apostacy?	John			
+Jots & Tittles	1984	New Testament	Hard	Traditional	N/A	While in his youth, Saul went to Jerusalem to be educated as what?	A rabbi			
+Jots & Tittles	1984	New Testament	Hard	Traditional	N/A	Besides Jesus and God, whose name is the last mentioned in the Bible?	David			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	The devils Jesus cast out of the man in the Gadarenes entered the bodies of how many swine?	2000			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	What was the group of people hated most by the Jews?	The Samaritans			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Which is the only gospel naming Nathanael as Bartholomew?	John			
+Jots & Tittles	1984	New Testament	Medium	Traditional	N/A	Who outran Peter to the sepulchre to look for Christ?	John			
+Jots & Tittles	1984	New Testament	Hard	Traditional	N/A	Jesus was the Greek form of what Hebrew name?	Joshua			
+Jots & Tittles	1984	New Testament	Hard	Traditional	N/A	Who was the woman disciple also known as Tabitha that Peter raised from the dead at Joppa?	Dorcas			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	Why did the Lord chasten the brother of Jared for three hours?	Because he had failed to pray for four years.			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	When Mormon was 15 years old, by whom was he visted?	The Lord			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	Who told Moroni of Morianton's plan to lead a group of people to the noth and take possession of that land?	Morianton's maid servant who had been beaten by Morianton			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	Which son of Paharon was sentenced to death because he tried to destroy the liberty of the people?	Paanchi			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	In the 37th year of the judges, how did the Nephites begin to travel to the land northward?	By ship			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	Which two of his sons did Alma the younger take with him to preach to the Zormaites	Shiblon and Corianton			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	What 2 sets of plates did Limhi's people bring to Zarahemla?	Their own records (record of Zeniff) and the 24 gold plates of Ether			
+Jots & Tittles	1984	Book of Mormon	Hard	Traditional	N/A	In what land did King Kib live?	Moron			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	To whom did Jacob entrust the plates before his death?	Enos			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	We know much about King Benjamin and his sons Mosiah and Helaman. Who was his third son?	Helorum			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	How old was Mormon when he was made leader of th Nephite armies?	Sixteen			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	When the major war in the 25th year of th the judges began, who led the Lamanite armies to battle?	Amalickiah			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	How did Moroni fortify all the cities of thre Nephites?	By surrounding them with mounds of dirt upon which stood timber fences.			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	What happened to the man who tried to kill Ammon because Ammon had killed his brother?	He was struck dead.			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	What ocean did the Nephites cross to get to America?	Pacific			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	Who replaced Amalickiah as king over the Lamanites?	Ammoron			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	What nephite king lived at the same time as King Noah?	King Benjamin			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	Jared's barges were as watertight as a what?	a dish			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	What French word ends the book of Jacob?	Adieu			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	What Nephite prophet, as chief judge, condemned nehor to die?	Alma the Younger			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	How long were Ammon and his bretheren in prison before they were taken to King Limhi?	Two days			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	What did Moroni have his Lamanite prisoner take to the Lamanites guarding the Nephite prison?	Wine			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	Who was Lehi's youngest son at the time he left Jerusalem?	Nephi			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	Of the chief judges named in the Book of Mormon, how many resigned to pursue missionary work?	Two days			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	Name 2 Book of Mormon prophets whose sons refused to become kings.	Mosiah and the Brother of Jared			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	Senine, seon, shum, and limnah were all monetary amounts of what metal?	gold			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	The word Liahona is a combination of what 2 languages?	Hebrew and Egyptian			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	What 2 Old Testament prophets did the resurrected Christ quote to the Nephites?	Isaiah and Malachi			
+Jots & Tittles	1984	Book of Mormon	Hard	Traditional	N/A	How did the "Pronouncing Vocabulary" in the Book of Mormon come into being?	From a Book of Mormon convention held at BYU in 1903			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	How many Lamanite daughters were stolen by the priests of Noah?	24			
+Jots & Tittles	1984	Book of Mormon	Hard	Traditional	N/A	Whom did Govenor Lachoneus receive a letter from?	Giddianhi			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	In the Book of Mormon, ziff is mentioned as a type of what?	Metal			
+Jots & Tittles	1984	Book of Mormon	Hard	Traditional	N/A	After the battle with the brother of Shared, where did the army of Coriantur dwell for 2 years?	In the wilderness			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	What position did Alma the younger relinquish to Nephihah?	Cheif Judge			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	What is another name for the "miraculous directors" that were shown to the Three Witnesses?	Liahona			
+Jots & Tittles	1984	Book of Mormon	Easy	Traditional	N/A	The plates of Ether contained the history of what people?	The Jaredites			
+Jots & Tittles	1984	Book of Mormon	Hard	Traditional	N/A	What incident is believed to be depicted on Izapa, Stela 5?	Lehi and the Tree of Life			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	Where did Ether hide while he was writing the Jaredite record?	In a cave in the rock			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	To what son did Nephi, son of Helaman, give the sacred plates?	Nephi			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	What title for Christ is used in the last sentence of the Book of Mormon?	Jehovah			
+Jots & Tittles	1984	Book of Mormon	Hard	Traditional	N/A	How many friends did Jared and his brothers take with them?	Twenty-two			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	What did King Noah have built near the temple?	A lookout tower			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	What reason did Jarom give for not writing more on the plates?	The plates were small			
+Jots & Tittles	1984	Book of Mormon	Hard	Traditional	N/A	In about what year did Moroni seal and hide the plates?	A.D. 421			
+Jots & Tittles	1984	Book of Mormon	Hard	Traditional	N/A	What is ephah?	A measure of dry weight (about 8 gallons)			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	What was Irreantum?	The name Lehi gave to the sea at Bountiful			
+Jots & Tittles	1984	Book of Mormon	Medium	Traditional	N/A	What is the first instance of death mentioned in the Book of Mormon?	The armies of Pharoh drowning in the Red Sea			
+Jots & Tittles	1984	Book of Mormon	Hard	Traditional	N/A	In what month did the first Book of Mormon copies come off the press?	March			
+Jots & Tittles	1984	Book of Mormon	Hard	Traditional	N/A	Toward what city did Coriantumr march after taking Zarahemla?	Bountiful			
+Jots & Tittles	1984	Book of Mormon	Hard	Traditional	N/A	Whom did Coriantumr smite against the wall?	Pacumeni			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Where on the Arabian Peninsula do trees grow large enough to build a ship such as Nephi built?	Salalah			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	What is another name for Bethlehem?	City of David			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Where did Jesus select Peter, Andrew, James, and John to be disciples?	Sea of Galilee			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Doctrine and Covenants 121 was taken from a letter Joseph Smith wrote where?	Liberty Jail			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Tens and Thousands of Saints from Britain and Europe igrated to Zion from what British harbor?	Liverpool			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	In what early Church town would you have found streets named Joseph, Hyrum, Sidney, Parley, Kimball, and Partridge?	Nauvoo			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	What is the body of water into which the Jordan River flows?	The Dead Sea			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	In what city did Jesus attend a wedding?	Cana			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	What two presidents of the Church were born in Vermont?	Joseph Smith and Brigham Young			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Where was Lehi camped when the Liahona appeared outside his tent?	Valley of Lemuel			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Joseph, Rebekah, and Rachel were all born in what modern-day country?	Syria			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	What does Golgotha mean?	A skull			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	On July 4, 1838, cornerstones were laid for a temple that has never been built. Where is this site?	Far West, Missouri			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Where was the Pearl of Great Price first published?	England			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	When Alma's people fled Helam, where did they travel to?	Zarahemla			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	What is the modern political capital of Syria?	Damascus			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Near what mountain did Moses smite the rock and water came forth?	Horeb			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Where was Joseph Smith baptized?	Susquehanna River in Pennsylvania			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Where did the final battle between the Lamanites and Nehites take place?	Cumorah			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	In 1853, a block of stone from the "State of Deseret" was sent to Washington, D.C., for placement in what monument?	Washington Monument			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Name the city or town where the angel appeared to Mary.	Nazareth			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	How did the pioneer landmark, The Sweetwater, get its name?	At one time a pack mule laden with sugar was lost in the stream			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	Jebus is another name for what place?	Jerusalem			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	If 10 people who lived righteous lives had been found, what cities would have been spared destruction?	Sodom and Gomorrah			
+Jots & Tittles	1984	Church Places	Medium	Traditional	N/A	What was the name given by the Nephites to the whole of North America?	Land of Mulek			
 Mormon Trivia	1984	People	Medium	Traditional	N/A	In 1901, who said "The eyes of the 12 have been roaming over the habitable globe...?"	Brigham Young Jr.			
 Mormon Trivia	1984	People	Easy	Traditional	N/A	Who baptized Helam in the waters of Mormon?	Alma			
 Mormon Trivia	1984	People	Hard	Traditional	N/A	In what year was Lietenant General Joseph Smith the highest ranking officer in the US?	1841			
