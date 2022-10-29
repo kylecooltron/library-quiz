@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/library-quiz/static/css/main.ce4543d2.css",
-    "main.js": "/library-quiz/static/js/main.96de01c9.js",
+    "main.js": "/library-quiz/static/js/main.186c0bab.js",
     "static/media/boardgames.png": "/library-quiz/static/media/boardgames.75b579e51306ee2c1d2f.png",
     "index.html": "/library-quiz/index.html",
     "main.ce4543d2.css.map": "/library-quiz/static/css/main.ce4543d2.css.map",
-    "main.96de01c9.js.map": "/library-quiz/static/js/main.96de01c9.js.map"
+    "main.186c0bab.js.map": "/library-quiz/static/js/main.186c0bab.js.map"
   },
   "entrypoints": [
     "static/css/main.ce4543d2.css",
-    "static/js/main.96de01c9.js"
+    "static/js/main.186c0bab.js"
   ]
 }
