@@ -2,28 +2,31 @@
 
 /*
 
-Notes:
+Special notes in regards to validating "Traditional" question types (text input):
 
 There are some cases which are impossible to distinguish given the current way the spreadsheet is set up.
 
-Example: 
-  "In what river was Jesus baptized?"
-  And the answer is "River Jordan"
-  If someone types the word "River" it will return correct.
+Example:
+  "In what river was Jesus baptized?"
+  And the answer is "River Jordan"
+  If someone types the word "River" it will return correct.
 
-  My original thought was to not count words that are also contained in the question text.
-  However, sometimes the entire answer is contained in the question text.
+  Mandating exact match is obvioously not a good idea, seeing as some answers are:
+  "That her barrel of flour and cruse of oil would not fail until the famine ended"
 
-  Such as: "Did the wise men who followed the star of Bethlehem come from the east or the west?"
+  My original thought was to not count words that are also contained in the question text.
+  However, sometimes the entire answer is contained in the question text.
 
-  So that would not be a viable solution because "east" would be eliminated as a valid answer.
+  Such as: "Did the wise men who followed the star of Bethlehem come from the east or the west?"
 
-  SOLUTIONS: 
-  A) set up another column with KEYWORDS that are used for answer checking instead of looking through 
-  the actual text the user sees as the "correct answer" after submiting their guess. 
-  So the user would still see CORRECT ANSWER WAS: "River Jordan", but the keyword list would only be "Jordan"
+  "east" would be eliminated as a valid answer.
 
-  B) set up another column which indicates a matching style: exact, keyword, anyword, etc.
+  SOLUTIONS:
+  A) set up another column with KEYWORDS that are used for answer checking instead of looking through
+  the actual text the user sees as the "correct answer" after submiting their guess.
+  So the user would still see CORRECT ANSWER WAS: "River Jordan", but the keyword list would only be "Jordan"
+
+  B) set up another column which indicates a matching style: exact, keyword, anyword, etc.
 
 
 */
