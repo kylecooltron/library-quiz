@@ -33,6 +33,8 @@ function App() {
       questionLookups: [],
       totalQuestions: 1,
 
+
+      // default error values
       questionInfo: {
         title: "error title",
         year: "1000",
@@ -45,11 +47,6 @@ function App() {
         choices: [],
       },
 
-      // questionText: "error",
-      // questionType: 'choice',
-      // questionCorrectAnswer: null,
-      // questionChoices: [],
-
       questionAnswered: false,
       questionCorrect: null,
       questionsAnsweredCorrectly: 0,
@@ -58,13 +55,14 @@ function App() {
   
   // each row in .tsv file should have at least this many columns:
   const CHECK_FOR_COLUMNS = 7;
+  // used for turning difficulty string into index number
   const DIFFICULTY_IDX = {
     "children": 0,
     "easy": 1,
     "medium": 2,
     "hard": 3,
   }
-  // identify each used column index
+  // identify each used column index for questions
   const COLUMN_IDX = {
     game_title: 0,
     year_published: 1,
@@ -80,63 +78,65 @@ function App() {
 
   useEffect(() => {
     
+    // if user refreshes page, redirect them to home page so they don't see 
+    // page without proper data loaded for questions and difficulty
     if(window.location.href.toString().split("/").filter(n => n).at(-1) !== "library-quiz"){
       window.location.href = 'https://kylecooltron.github.io/library-quiz/';
-      // console.log(window.location.href.toString().split("/").at(-1));
-      // console.log(window.location.href.toString().split("/"));
-      // console.log(window.location.href.toString());
     }
 
+    // parse questions data from .tsv file
     getSpreadsheetInfo(setQuestionsData, CHECK_FOR_COLUMNS); }, []
   );
 
+  
   const getRandomQuestionLookup = (difficulty) => {
+    /*
+    * randomly chooses a question number of a given difficulty and returns both
+    * Returns [int, int]: (question number, difficulty index)
+    */
     function getRandomInt(min, max) {
+      // get a random integer within range
       min = Math.ceil(min);
       max = Math.floor(max);
       return Math.floor(Math.random() * (max - min + 1)) + min;
     }
-
     let random_question_num = getRandomInt(0, questionsData[DIFFICULTY_IDX[difficulty]].length - 1);
-
-
     // return the random number and the difficulty used
     return [random_question_num, DIFFICULTY_IDX[difficulty]];
   }
 
 
   const updateGamePlaying = (playing, difficulty="easy") => {
+    /*
+    * updates the game state to playing or not
+    * if playing is true, gather starting questions
+    */
 
-    // define
+    // default empty arrays
     let questionLookups = [];
     let questionStartLookup = [];
-    // set up ten random question lookups if type is challenge
-    if(gameState.gameType === "challenge"){
-      while(questionLookups.length <  10){
-        let number_to_try = getRandomQuestionLookup(difficulty);
-        if( !questionLookups.includes(number_to_try)){
-          questionLookups.push(number_to_try);
+
+    // if playing mode has been set
+    if(playing){
+      // set up ten random question lookups if type is challenge
+      if(gameState.gameType === "challenge"){
+        // keep looking until we have found ten
+        while(questionLookups.length <  10){
+          let number_to_try = getRandomQuestionLookup(difficulty);
+          // make sure this question hasn't already been selected (avoid duplicates)
+          if( !questionLookups.includes(number_to_try)){
+            questionLookups.push(number_to_try);
+          }
         }
+        // start with the first one
+        questionStartLookup = questionLookups[0];
       }
-      // start with the first one
-      questionStartLookup = questionLookups[0];
+      if(gameState.gameType === "freestyle"){
+          questionStartLookup = getRandomQuestionLookup(difficulty);
+      }
     }
 
-    if(gameState.gameType === "freestyle"){
-      // find a random question that is the right difficulty
-      // let tries = 1;
-      // while(true){
-      //   tries += 1;
-        questionStartLookup = getRandomQuestionLookup(difficulty);
-          //if(questionsData[questionStartLookup[1]][questionStartLookup[0]][COLUMN_IDX.question_type].toLowerCase() === "traditional"){
-            // break;
-          //}
-      //   if(tries > 100){
-      //     break;
-      //   }
-      // }
-    }
-
+    // set game state
     setGameState( (g) => ({
       ...g,
       gamePlaying: playing,
@@ -150,12 +150,14 @@ function App() {
       score: "100%"
     }))
 
+    // load the starting question
     if(playing){
       loadQuestionInfo(questionStartLookup)
     }
   }
 
   const updateGameType = (game_type) => {
+    // either "challenge" or "freestyle"
     setGameState( (g) => ({
       ...g,
       gameType: game_type,
@@ -172,6 +174,7 @@ function App() {
       gameState.questionInfo.type,
       );
 
+    // update the score
     let newScore = ((gameState.questionsAnsweredCorrectly + (correct ? 1 : 0)) / (gameState.questionNum + 1)) * 100
     setGameState( {
       ...gameState,
@@ -183,16 +186,22 @@ function App() {
   }
 
   const loadQuestionInfo = (questionLookup) => {
+    /*
+    * Loads question information from questionsData
+    */
 
+    // set to defaults
     let choices = []
     let questionDataRow = questionsData[questionLookup[1]][questionLookup[0]];
 
-    // if there are more entries in the array after the correct answer
+    // make sure this question has all the columns we expect
+    // (multiple choice have more than eight)
     if(questionDataRow.length > 8){
       // get all the other answers
       choices = questionDataRow.slice(8,-1);
       // get the correct answer
       choices.push(questionDataRow[COLUMN_IDX.question_correct_answer]);
+      // filter the choices
       choices = choices
         // get rid of empty values
         .filter((a) => a.trim() !== '')
@@ -222,6 +231,10 @@ function App() {
 
 
   const nextQuestion = () => {
+    /*
+    * set up the next question
+    */
+
     if (gameState.gameType === "challenge"){
       if (gameState.questionNum < gameState.totalQuestions){
         let nextQuestionNum = gameState.questionNum + 1
@@ -248,14 +261,10 @@ function App() {
         }
         nextQuestionLookup = getRandomQuestionLookup(gameState.difficulty);
         let questionDataRow = questionsData[nextQuestionLookup[1]][nextQuestionLookup[0]];
-
-        // ERROR HAPPENING HERE
-        //if(questionDataRow[COLUMN_IDX.question_type].toLowerCase() === "traditional"){
+          // make sure it's not the same question we just answered
           if(questionDataRow[COLUMN_IDX.question_text] !== gameState.questionInfo.text){
             break;
           }
-        //}
-
       }
 
         // update state to next question

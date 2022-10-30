@@ -1,6 +1,15 @@
 
 
-function csvToArray(str) {
+/*
+
+Note: Using .TSV because answers contin commas
+
+*/
+
+function tsvToArray(str) {
+  /*
+  * parse tsv into array of arrays
+  */
   let arrayAll = []
   let rows = str.slice(str.indexOf("\n") + 1).split("\n")
   for(const row of rows){
@@ -10,25 +19,25 @@ function csvToArray(str) {
 }
 
 
-// Parse CSV
+// Parse TSV
 export function getSpreadsheetInfo (setQuestionsData, CHECK_FOR_COLUMNS) {
+
   fetch('/library-quiz/trivia_questions.tsv')
   .then((response) => response.text())
   .then((sheetsinfo) => {
 
-      // used to sort by "childrens", "easy", etc.
+      // column index used to sort by "childrens", "easy", etc.
       const question_difficulty_column_index = 3;
-
-      let sheetsArray = csvToArray(sheetsinfo);
-      // sort list into difficulties and do some validation
+      // parse tsv
+      let sheetsArray = tsvToArray(sheetsinfo);
       let validArray = sheetsArray.filter((row) => {
         return (
           row.length >= CHECK_FOR_COLUMNS 
-          // extra validation to make sure columns 0-5 are not blank
- 
+          // validation to make sure columns 0-5 are not blank
         );
       });
-        let finalArray = [
+      // sort list into seperate difficulties lists for faster question lookup
+      let finalArray = [
         validArray.filter((row) => {
           return row[question_difficulty_column_index].toLowerCase() === "children";
         }),
@@ -43,9 +52,8 @@ export function getSpreadsheetInfo (setQuestionsData, CHECK_FOR_COLUMNS) {
         })
       ]
 
-
-      // returns questions an object of arrays
-      setQuestionsData(finalArray)
+      // returns questions as multidimensional array
+      setQuestionsData(finalArray);
       return finalArray
   })
   .catch((err) => {
