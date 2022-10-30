@@ -169,7 +169,7 @@ const Game = ({gameState, submitQuestion, nextQuestion}) => {
           (gameState.questionNum < gameState.totalQuestions ?
             <button type='button' autoFocus onClick={ nextQuestionClick }> Next Question </button>
           :
-            <Link className='return-btn' to="/library-quiz/gameend" > Finish Quiz </Link>))
+            <Link className='return-btn' to="/gameend" > Finish Quiz </Link>))
       }
       {
         gameState.gameType === 'freestyle' &&

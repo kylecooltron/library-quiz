@@ -1,6 +1,6 @@
 // react
 import { useState, useEffect } from 'react'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 
 // index components
 import Home from './components/Home'
@@ -277,39 +277,32 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Routes>
-          
+          <Routes>
           <Route path={"/"} element={ 
             <>
             <HeaderHome/> 
             <Home boardGamesImg={boardGamesImg} updateGameType={updateGameType}/>
             </>
           }/>
-          <Route path={"/library-quiz"} element={ 
-            <>
-            <HeaderHome/> 
-            <Home boardGamesImg={boardGamesImg} updateGameType={updateGameType}/>
-            </>
-          }/>
-          <Route path={"/library-quiz/difficulty"} element={ 
+          <Route path={"/difficulty"} element={ 
             <>
             <HeaderBack/> 
             <Difficulty updateGamePlaying={updateGamePlaying}/>
             </>
           }/>
-          <Route path={"/library-quiz/gameplay"} element={ 
+          <Route path={"/gameplay"} element={ 
             <>
             <HeaderBack/> 
             <Game gameState={gameState} submitQuestion={questionSubmitted} nextQuestion={nextQuestion} />
             </>
           }/>
-          <Route path={"/library-quiz/gameend"} element={ 
+          <Route path={"/gameend"} element={ 
             <>
             <HeaderBack/> 
             <GameEnd gameState={gameState} resetGame={resetGame} />
             </>
           }/>
-        </Routes>
+  </Routes>
       </Router>
       <Footer />
     </div>

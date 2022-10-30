@@ -11,7 +11,7 @@ const GameEnd = ( { gameState, resetGame} ) => {
       
       <h2>{gameState.score}</h2>
 
-      <Link className='return-btn' to="/library-quiz" onClick={resetGame}>Return to Home</Link>
+      <Link className='return-btn' to="/" onClick={resetGame}>Return to Home</Link>
     </div>
 
   )
